@@ -1,3 +1,607 @@
--- This file was generated using Luraph Obfuscator v13.4.5
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Pop It Script v2.2", "Ocean")
 
-return(function(tt,lt,sQ,Mt,Rt,Zt,Qt,et,Wt,vt,xt,At,bt,mt,ht,yt,GQ,at,Ht,Kt,Lt,QQ,qQ,jQ,Dt,pt,VQ,Ot,Et,nt,rt,St,gt,fQ,Xt,OQ,It,iQ,Bt,LQ,YQ,ct,wt,ft,qt,Ft,zt,Yt,Nt,Ut,Ct,ut,Tt,Jt,kt,ot,PQ,dt,...)local q,f,Y,L,O=Qt[qt],Qt[ft],Yt,Qt[Lt],Ot;local C,T=yt,Bt or gt;local B,g,a=at,Xt,nt;local j,s,Q=St,Kt,(It);local S,K=lt,(dt);local I,H,W,u,E,l,d,Z,r,c,h,o,k,e,m,p,w,D=Zt,Zt,Zt,Zt,Zt,Zt,Zt,Zt,Zt,Zt,Zt,Zt,Zt,Zt,Zt,Zt,Zt,(Zt);for km=0,20 do if km<=9 then if not(km<=4)then if not(km<=6)then if not(km<=7)then do if km~=8 then Z=function()local mP=(0);local hP=Zt;while mP<=1 do if mP~=0 then do W=W+1;end;mP=2;else hP=f(l,W,W);mP=1;end;end;return hP;end;else l=O(q(l,5),ht,function(Rq)if f(Rq,2)~=72 then local qb=(1);local fb=(Zt);while qb<2 do if qb==0 then if not(d)then return fb;else local Ih,Sh=0,Zt;do while Ih~=2 do if Ih~=0 then d=Zt;do Ih=2;end;else Sh=L(fb,d);do Ih=1;end;end;end;end;return Sh;end;qb=2;else fb=Y(Ht(Rq,16));qb=0;end;end;else d=Ht(q(Rq,1,1));do return ot;end;end;end);end;end;else end;else do if km~=5 then l=ct;else end;end;end;else if not(km<=1)then if not(km<=2)then if km~=3 then else W=1;end;else H={};end;else if km~=0 then else do I=(K and K()or rt);end;end;end;end;else if not(km<=14)then if not(km<=17)then if not(km<=18)then if km~=19 then D={[0]={[0]=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15},{[0]=1,0,3,2,5,4,7,6,9,8,11,10,13,12,15,14},{[0]=2,3,0,1,6,7,4,5,10,11,8,9,14,15,12,13},{[0]=3,2,1,0,7,6,5,4,11,10,9,8,15,14,13,12},{[0]=4,5,6,7,0,1,2,3,12,13,14,15,8,9,10,11},{[0]=5,4,7,6,1,0,3,2,13,12,15,14,9,8,11,10},{[0]=6,7,4,5,2,3,0,1,14,15,12,13,10,11,8,9},{[0]=7,6,5,4,3,2,1,0,15,14,13,12,11,10,9,8},{[0]=8,9,10,11,12,13,14,15,0,1,2,3,4,5,6,7},{[0]=9,8,11,10,13,12,15,14,1,0,3,2,5,4,7,6},{[0]=10,11,8,9,14,15,12,13,2,3,0,1,6,7,4,5},{[0]=11,10,9,8,15,14,13,12,3,2,1,0,7,6,5,4},{[0]=12,13,14,15,8,9,10,11,4,5,6,7,0,1,2,3},{[0]=13,12,15,14,9,8,11,10,5,4,7,6,1,0,3,2},{[0]=14,15,12,13,10,11,8,9,6,7,4,5,2,3,0,1},{[0]=15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0}};else w=function()local Tg=(r());local Eg=(r());do if not(Tg==0 and Eg==0)then else return 0;end;end;local Ig=(-1)^m(31,1,Eg);local tg=2;local Pg,pg,Fg=Zt,Zt,Zt;repeat if not(tg<=1)then if tg<=2 then Pg=m(20,11,Eg);tg=3;else if tg==3 then do pg=m(0,20,Eg)*h+Tg;end;tg=0;else return Ig*(2^(Pg-1023))*(pg/o+Fg);end;end;else if tg~=0 then if Pg==0 then if pg~=0 then do Pg=1;end;do Fg=0;end;else return Ig*0;end;elseif Pg~=2047 then else do if pg~=0 then do return Ig*(1/0);end;else return Ig*(0/0);end;end;end;do tg=4;end;else do Fg=1;end;do tg=1;end;end;end;until(mt);end;end;else p=function()local eO,aO=Zt,(Zt);for rH=0,2 do if not(rH<=0)then if rH~=1 then do return aO*h+eO;end;else if aO>=c then aO=aO-h;end;end;else do eO,aO=r(),r();end;end;end;end;end;else if km<=15 then e={[0]=1};else if km~=16 then m=function(cO,WO,MO)local vO,kO=1,(Zt);do while(et)do if vO~=0 then kO=(MO/e[cO])%e[WO];vO=0;else kO=kO-kO%1;break;end;end;end;do return kO;end;end;else do local yB=2;for hp=1,31 do(e)[hp]=yB;do yB=yB*2;end;end;end;end;end;end;else do if not(km<=11)then do if not(km<=12)then if km~=13 then do k=h-1;end;else o=2^52;end;else h=kt;end;end;else if km~=10 then do c=2147483648;end;else r=function()local YR,nR,BR,JR=Zt,Zt,Zt,Zt;for U6=0,2 do if U6<=0 then do YR,nR,BR,JR=f(l,W,W+3);end;else if U6~=1 then return JR*16777216+BR*65536+nR*256+YR;else W=W+4;end;end;end;end;end;end;end;end;end;end;local A=((pt or wt));local M=(A and A[Dt]or function(N5,o5)do N5=N5%h;end;do o5=o5%h;end;local f5,H5,V5=1,1,(Zt);repeat do if H5==0 then do while N5>0 and o5>0 do local kL,jL=Zt,(Zt);do for dU=0,1 do if dU==0 then kL=N5%16;else jL=o5%16;end;end;end;V5=V5+D[kL][jL]*f5;N5=(N5-kL)/16;local XL=(0);while XL~=2 do do if XL~=0 then f5=f5*16;XL=2;else o5=(o5-jL)/16;XL=1;end;end;end;end;end;H5=2;else V5=0;do H5=0;end;end;end;until H5==2;return V5+N5*f5+o5*f5;end);local t=A and A[At]or function(af,Zf)do af=af%h;end;for JM=0,1 do if JM~=0 then do return((af+Zf)-M(af,Zf))/2;end;else Zf=Zf%h;end;end;end;local v=(A and A[Mt]or function(XU,xU)do XU=XU%h;end;xU=xU%h;do return k-t(k-XU,k-xU);end;end);local N=(A and A[tt]or function(aY)return k-(aY%h);end);local F,st,R,x=A and A[vt],1,Zt,(Zt);local z=(A and A[Nt]);while st<=4 do do if not(st<=1)then do if not(st<=2)then if st==3 then do u=Z();end;st=5;else R=function(uq)local Tq,Hq,Pq,Qq,Nq=Zt,Zt,Zt,Zt,Zt;do for Jo=0,5 do if not(Jo<=2)then do if Jo<=3 then do Qq=M(Tq[3],E);end;else do if Jo~=4 then do E=(229*E+uq)%Ft;end;else Nq=M(Tq[4],E);end;end;end;end;else if not(Jo<=0)then if Jo~=1 then Pq=M(Tq[2],E);else Hq=M(Tq[1],E);end;else do Tq={f(l,W,W+3)};end;end;end;end;end;local Uq=1;while(et)do do if Uq~=0 then W=W+4;Uq=0;else return Nq*Rt+Qq*65536+Pq*256+Hq;end;end;end;end;st=2;end;else x=function(ZN)local WN=(r());local ON=ot;for ho=1,WN,7997 do local eo=(3);local Wo,uo=Zt,Zt;while eo~=5 do do if not(eo<=1)then if not(eo<=2)then do if eo~=3 then ON=ON..Y(T(uo));eo=5;else Wo=ho+zt-1;eo=2;end;end;else if not(Wo>WN)then else Wo=WN;end;eo=0;end;else if eo~=0 then for Dm=1,#uo do uo[Dm]=M(uo[Dm],u);u=(ZN*u+157)%256;end;eo=4;else uo={f(l,W+ho-1,W+Wo-1)};do eo=1;end;end;end;end;end;end;do W=W+WN;end;do return ON;end;end;st=3;end;end;else if st~=0 then z=z or function(l8,H8)local D8=1;while(et)do if not(D8<=0)then if D8==1 then if not(H8>=32)then else return 0;end;do D8=0;end;else do return(l8*e[H8])%h;end;end;else if not(H8<0)then else return F(l8,-H8);end;D8=2;end;end;end;st=0;else F=F or function(qB,rB)local KB,aB=0,Zt;repeat do if KB<=1 then if KB~=0 then aB=(qB%h/e[rB]);KB=2;else if rB>=32 then return 0;end;do KB=3;end;end;else do if KB~=2 then if not(rB<0)then else return z(qB,-rB);end;KB=1;else return aB-aB%1;end;end;end;end;until(mt);end;do st=4;end;end;end;end;end;do E=Z();end;local J=({});st=3;local U,b,it=Zt,Zt,(Zt);do while st<=3 do do if not(st<=1)then if st~=2 then for XS=1,Z()do local bS,rS=0,Zt;while bS<=2 do if not(bS<=0)then if bS~=1 then J[XS-1]=rS;bS=1;else do for jm=1,Z()do local Qm,tm=Zt,Zt;do for gS=0,2 do if not(gS<=0)then if gS~=1 then do rS[tm]=m(0,4,Qm);end;else tm=(jm-1)*2;end;else Qm=Z();end;end;end;do(rS)[tm+1]=m(4,4,Qm);end;end;end;bS=3;end;else rS={};do bS=2;end;end;end;end;st=1;else it=1;st=4;end;else do if st~=0 then do U=function(...)return Wt(xt,...),{...};end;end;st=0;else b={};st=2;end;end;end;end;end;end;local Vt={};local function Pt(FJ,aJ,VJ)local UJ=aJ[1];local xJ,QJ,mJ,yJ=aJ[7],aJ[2],aJ[6],(aJ[3]);local vJ=aJ[5];local fJ,OJ=aJ[4],aJ[8];local bJ=g({},{__mode=Jt});local AJ=(Zt);AJ=function(...)local bU,VU=1,{};local SU=(0);local uU=((K and K()or rt));local lU=(uU==I and VJ or uU);local aU,IU=U(...);aU=aU-1;for T6=0,aU do if not(OJ>T6)then break;else VU[T6]=IU[T6+1];end;end;do Vt[2]=aJ;end;(Vt)[3]=VU;if not QJ then do IU=Zt;end;elseif not(mJ)then else(VU)[OJ]={n=aU>=OJ and aU-OJ+1 or 0,T(IU,OJ+1,aU+1)};end;do if lU~=uU then if not(S)then rt=lU;else S(AJ,lU);end;end;end;local KU,ZU,PU,gU=Ct(function()do while true do local Jj=vJ[bU];local Rj=(Jj[2]);do bU=bU+1;end;if not(Rj>=72)then do if not(Rj>=36)then if Rj<18 then if not(Rj>=9)then if not(Rj<4)then do if Rj<6 then if Rj~=5 then local s9=Jj[6];local b9,W9=s9+2,(s9+3);local x9=({VU[s9](VU[s9+1],VU[b9])});for s1=1,Jj[3]do(VU)[b9+s1]=x9[s1];end;local m9=(VU[W9]);if m9==Zt then bU=bU+1;else(VU)[b9]=m9;end;else VU[Jj[6]]=Jj[5]==VU[Jj[3]];end;else if not(Rj<7)then do if Rj==8 then do VU[Jj[6]]=Jj[5]>=Jj[4];end;else do VU[Jj[6]]=F(Jj[5],Jj[4]);end;end;end;else local en=Jj[6];VU[en](T(VU,en+1,SU));SU=en-1;end;end;end;else do if Rj<2 then do if Rj==1 then if VU[Jj[1]]==VU[Jj[3]]then else bU=bU+1;end;else local px=FJ[Jj[1]];do VU[Jj[6]]=px[1][px[2]];end;end;end;else if Rj~=3 then local eQ=(Jj[1]);local bQ=VU[eQ];for DN=eQ+1,Jj[3]do bQ=bQ..VU[DN];end;do(VU)[Jj[6]]=bQ;end;else VU[Jj[6]]=F(VU[Jj[1]],VU[Jj[3]]);end;end;end;end;else if not(Rj>=13)then if not(Rj>=11)then if Rj~=10 then VU[Jj[6]]=Zt;else(VU)[Jj[6]]=Jj[8];end;else if Rj~=12 then VU[Jj[6]]=M(VU[Jj[1]],VU[Jj[3]]);else if not(not(Jj[5]<=Jj[4]))then else bU=bU+1;end;end;end;else if not(Rj<15)then if not(Rj>=16)then VU[Jj[6]]=VU[Jj[1]]^VU[Jj[3]];else if Rj~=17 then local x7=(Jj[6]);local k7,Y7=Jj[1],Jj[3];if k7==0 then else do SU=x7+k7-1;end;end;local J7,M7=Zt,Zt;if k7==1 then J7,M7=U(VU[x7]());else do J7,M7=U(VU[x7](T(VU,x7+1,SU)));end;end;if Y7==1 then SU=x7-1;else do if Y7==0 then J7=J7+x7-1;SU=J7;else J7=x7+Y7-2;do SU=J7+1;end;end;end;local Kh=(0);for WY=x7,J7 do Kh=Kh+1;VU[WY]=M7[Kh];end;end;else(VU)[Jj[6]]=VU[Jj[1]]/VU[Jj[3]];end;end;else if Rj~=14 then VU[Jj[6]][Jj[5]]=VU[Jj[3]];else local Ru,mu=fJ[Jj[10]],Zt;local wu=(Ru[9]);if not(wu>0)then else mu={};for IE=0,wu-1 do local bE=vJ[bU];local oE=(bE[2]);if oE~=19 then mu[IE]=FJ[bE[1]];else(mu)[IE]={VU,bE[1]};end;bU=bU+1;end;(B)(bJ,mu);end;(VU)[Jj[6]]=Pt(mu,Ru,lU);end;end;end;end;else if not(Rj>=27)then if not(Rj>=22)then if not(Rj>=20)then do if Rj~=19 then if not(VU[Jj[1]]<=Jj[4])then else do bU=bU+1;end;end;else if Jj[3]~=234 then(VU)[Jj[6]]=VU[Jj[1]];else bU=bU-1;do(vJ)[bU]={[6]=(Jj[6]-229)%256,[3]=(Jj[1]-229)%256,[2]=143};end;end;end;end;else if Rj~=21 then(VU)[Jj[6]]=M(Jj[5],Jj[4]);else(VU)[Jj[6]]=VU[Jj[1]]~=VU[Jj[3]];end;end;else do if not(Rj<24)then if Rj<25 then do(VU)[Jj[6]]=Jj[5]^VU[Jj[3]];end;else if Rj==26 then VU[Jj[6]]=Jj[5]~=Jj[4];else do repeat local XV,hV=bJ,(VU);if not(#XV>0)then else local If={};for v4,W4 in C,XV do for s2,W2 in C,W4 do if not(W2[1]==hV and W2[2]>=0)then else local iN=W2[2];do if not(not If[iN])then else If[iN]={hV[iN]};end;end;W2[1]=If[iN];do W2[2]=1;end;end;end;end;end;until et;end;local Tc=(Jj[6]);return mt,Tc,Tc+Jj[1]-2;end;end;else do if Rj==23 then VU[Jj[6]]=M(VU[Jj[1]],Jj[4]);else local eK=Jj[1];VU[Jj[6]]=VU[eK]..VU[eK+1];end;end;end;end;end;else if not(Rj>=31)then if not(Rj>=29)then do if Rj~=28 then if VU[Jj[1]]~=Jj[4]then else bU=bU+1;end;else VU[Jj[6]]=VU[Jj[1]]*VU[Jj[3]];end;end;else if Rj==30 then if Jj[1]==jQ then bU=bU-1;do(vJ)[bU]={[2]=58,[6]=(Jj[6]-95)%256,[1]=(Jj[3]-95)%256};end;else do if not(not VU[Jj[6]])then else bU=bU+1;end;end;end;else do(VU)[Jj[6]]=#VU[Jj[1]];end;end;end;else if Rj>=33 then do if not(Rj<34)then if Rj==35 then VU[Jj[6]]=VU[Jj[1]]>=VU[Jj[3]];else VU[Jj[6]]=Jj[8];end;else if not(not(VU[Jj[1]]<VU[Jj[3]]))then else bU=bU+1;end;end;end;else if Rj~=32 then do(VU)[Jj[6]]=N(VU[Jj[1]]);end;else do VU[Jj[6]]=VU[Jj[1]]/Jj[4];end;end;end;end;end;end;else do if not(Rj<54)then if not(Rj>=63)then do if not(Rj>=58)then if not(Rj<56)then if Rj==57 then VU[Jj[6]]=t(Jj[5],Jj[4]);else SU=Jj[6];VU[SU]();do SU=SU-1;end;end;else if Rj~=55 then(VU)[Jj[6]]=et;bU=bU+1;else repeat local hd,Nd=bJ,(VU);if not(#hd>0)then else local ik={};for f4,o4 in C,hd do do for YJ,oJ in C,o4 do if oJ[1]==Nd and oJ[2]>=0 then local B_=oJ[2];if not(not ik[B_])then else ik[B_]={Nd[B_]};end;(oJ)[1]=ik[B_];oJ[2]=1;end;end;end;end;end;until et;return;end;end;else if not(Rj<60)then if not(Rj<61)then do if Rj~=62 then local aw=Jj[6];SU=aw+Jj[1]-1;VU[aw](T(VU,aw+1,SU));SU=aw-1;else local Gp=Jj[5]/Jj[4];do VU[Jj[6]]=Gp-Gp%1;end;end;end;else do(VU)[Jj[6]]=VU[Jj[1]]<=VU[Jj[3]];end;end;else do if Rj==59 then local M0,F0=Jj[6],(Jj[3]-1)*50;for Dr=1,SU-M0 do do(VU[M0])[F0+Dr]=VU[M0+Dr];end;end;else if Jj[3]~=53 then(VU)[Jj[6]]=-VU[Jj[1]];else bU=bU-1;(vJ)[bU]={[6]=(Jj[6]-63)%256,[3]=(Jj[1]-63)%256,[2]=143};end;end;end;end;end;end;else if not(Rj>=67)then if not(Rj>=65)then if Rj==64 then(VU)[Jj[6]]=Jj[5]+VU[Jj[3]];else VU[Jj[6]]=Jj[5]/Jj[4];end;else if Rj==66 then(VU)[Jj[6]]=VU[Jj[1]]==Jj[4];else VU[Jj[6]]=Jj[5]%Jj[4];end;end;else if not(Rj>=69)then do if Rj~=68 then local kP=(Jj[6]);local AP,VP=kP+1,kP+2;(VU)[kP]=ut(Ht(VU[kP]),VQ);do VU[AP]=ut(Ht(VU[AP]),PQ);end;VU[VP]=ut(Ht(VU[VP]),GQ);VU[kP]=VU[kP]-VU[VP];bU=Jj[10];else VU[Jj[6]]=Vt[Jj[1]];end;end;else do if not(Rj>=70)then local fl,Cl=Jj[6],VU[Jj[1]];local ql=(VU[Jj[3]]);VU[fl+1]=Cl;(VU)[fl]=Cl[ql];else if Rj~=71 then local nF,vF=Jj[6],VU[Jj[1]];VU[nF+1]=vF;(VU)[nF]=vF[Jj[4]];else local G2=Jj[6];local v2=VU[G2+2];local r2=(VU[G2]+v2);do(VU)[G2]=r2;end;if not(v2>0)then do if not(r2>=VU[G2+1])then else bU=Jj[10];VU[G2+3]=r2;end;end;else do if not(r2<=VU[G2+1])then else bU=Jj[10];do VU[G2+3]=r2;end;end;end;end;end;end;end;end;end;end;else if not(Rj<45)then do if not(Rj>=49)then if Rj<47 then do if Rj~=46 then(VU)[Jj[6]]=VU[Jj[1]]<Jj[4];else if Jj[3]~=93 then do for vg=Jj[6],Jj[1]do VU[vg]=Zt;end;end;else bU=bU-1;vJ[bU]={[1]=(Jj[1]-209)%256,[6]=(Jj[6]-iQ)%256,[2]=124};end;end;end;else if Rj~=48 then if not(not(Jj[5]<Jj[4]))then else do bU=bU+1;end;end;else do VU[Jj[6]]=Jj[5]<VU[Jj[3]];end;end;end;else if not(Rj<51)then if not(Rj<52)then if Rj~=53 then VU[Jj[6]]=Jj[5]^Jj[4];else local rC=VU[Jj[1]]/Jj[4];do(VU)[Jj[6]]=rC-rC%1;end;end;else VU[Jj[6]]=z(VU[Jj[1]],VU[Jj[3]]);end;else if Rj~=50 then SU=Jj[6];(VU)[SU]=VU[SU]();else VU[Jj[6]]=M(Jj[5],VU[Jj[3]]);end;end;end;end;else if not(Rj>=40)then if Rj<38 then if Rj~=37 then VU[Jj[6]]=VU[Jj[1]][Jj[4]];else if VU[Jj[1]]~=VU[Jj[3]]then else bU=bU+1;end;end;else if Rj==39 then if not(not(VU[Jj[1]]<Jj[4]))then else bU=bU+1;end;else VU[Jj[6]]=Jj[5]-VU[Jj[3]];end;end;else if not(Rj>=42)then do if Rj~=41 then do VU[Jj[6]]=VU[Jj[1]]>Jj[4];end;else(VU)[Jj[6]]=Jj[5]>VU[Jj[3]];end;end;else if not(Rj<43)then if Rj~=44 then(VU)[Jj[6]]=mt;else VU[Jj[6]]=et;end;else do(VU)[Jj[6]]=F(Jj[5],VU[Jj[3]]);end;end;end;end;end;end;end;end;end;else if not(Rj>=108)then do if not(Rj>=90)then if not(Rj<81)then do if not(Rj>=85)then if not(Rj>=83)then if Rj~=82 then do VU[Jj[6]]=v(VU[Jj[1]],Jj[4]);end;else local bh,Eh=Jj[6],((Jj[3]-1)*50);for Lq=1,Jj[1]do VU[bh][Eh+Lq]=VU[bh+Lq];end;end;else if Rj==84 then VU[Jj[6]]={T({},1,Jj[1])};else if Jj[5]==VU[Jj[3]]then else bU=bU+1;end;end;end;else do if not(Rj<87)then if not(Rj>=88)then local dN=Jj[5]/VU[Jj[3]];(VU)[Jj[6]]=dN-dN%1;else if Rj~=89 then VU[Jj[6]]=VU[Jj[1]]~=Jj[4];else local JJ=(Jj[6]);(VU)[JJ]=VU[JJ](T(VU,JJ+1,SU));SU=JJ;end;end;else if Rj==86 then local b3=(Jj[6]);(VU[b3])(VU[b3+1]);SU=b3-1;else local Do=(Jj[6]);local Po=(Jj[1]);do SU=Do+Po-1;end;do repeat local O_,g_=bJ,(VU);do if not(#O_>0)then else local HX={};do for uE,xE in C,O_ do for YM,jM in C,xE do if not(jM[1]==g_ and jM[2]>=0)then else local Hu=(jM[2]);if not HX[Hu]then do HX[Hu]={g_[Hu]};end;end;do(jM)[1]=HX[Hu];end;jM[2]=1;end;end;end;end;end;end;until et;end;return et,Do,Po;end;end;end;end;end;else do if not(Rj>=76)then if Rj<74 then if Rj~=73 then do(VU)[Jj[6]]=t(VU[Jj[1]],VU[Jj[3]]);end;else(VU)[Jj[6]]=VU[Jj[1]]*Jj[4];end;else if Rj~=75 then do if not(VU[Jj[1]]<=Jj[4])then bU=bU+1;end;end;else VU[Jj[6]]=VU[Jj[1]]^Jj[4];end;end;else if Rj<78 then do if Rj==77 then(VU[Jj[6]])[VU[Jj[1]]]=VU[Jj[3]];else(VU)[Jj[6]]=VU[Jj[1]]%VU[Jj[3]];end;end;else if not(Rj>=79)then(VU)[Jj[6]]=t(Jj[5],VU[Jj[3]]);else if Rj~=80 then bU=Jj[10];else VU[Jj[6]]=z(Jj[5],Jj[4]);end;end;end;end;end;end;else if Rj<99 then do if not(Rj<94)then if not(Rj>=96)then if Rj~=95 then VU[Jj[6]]=VU[Jj[1]]<VU[Jj[3]];else local On=(FJ[Jj[1]]);On[1][On[2]]=VU[Jj[6]];end;else if not(Rj>=97)then VU[Jj[6]]=VU[Jj[1]][VU[Jj[3]]];else if Rj==98 then VU[Jj[6]]=F(VU[Jj[1]],Jj[4]);else(VU)[Jj[6]]=VU[Jj[1]]+Jj[4];end;end;end;else if not(Rj>=92)then if Rj==91 then do VU[Jj[6]]=VU[Jj[1]]-Jj[4];end;else do if Jj[5]==Jj[4]then else bU=bU+1;end;end;end;else if Rj~=93 then(VU)[Jj[6]]=VU[Jj[1]]<=Jj[4];else(VU)[Jj[6]]=Jj[5]+Jj[4];end;end;end;end;else if not(Rj<103)then if Rj>=105 then if Rj>=106 then if Rj==107 then local CE=(VU[Jj[1]]);if not(not CE)then do VU[Jj[6]]=CE;end;else bU=bU+1;end;else lU[Jj[8]]=VU[Jj[6]];end;else if not(Jj[5]<VU[Jj[3]])then do bU=bU+1;end;end;end;else if Rj~=104 then repeat local nT,zT=bJ,VU;if not(#nT>0)then else local wf=({});for Gn,pn in C,nT do for Pz,iz in C,pn do if iz[1]==zT and iz[2]>=0 then local oE=(iz[2]);if not(not wf[oE])then else(wf)[oE]={zT[oE]};end;do iz[1]=wf[oE];end;(iz)[2]=1;end;end;end;end;until et;return et,Jj[6],0;else local ne=(Jj[6]);do(VU)[ne]=VU[ne](VU[ne+1]);end;SU=ne;end;end;else if not(Rj<101)then if Rj~=102 then do VU[Jj[6]]=Jj[5]<=Jj[4];end;else VU[Jj[6]]=VU[Jj[1]]>=Jj[4];end;else if Rj==100 then VU[Jj[6]]=VU[Jj[1]]>VU[Jj[3]];else(VU)[Jj[6]]=v(Jj[5],VU[Jj[3]]);end;end;end;end;end;end;else if not(Rj>=126)then if Rj<117 then do if not(Rj>=112)then if not(Rj>=110)then do if Rj==109 then VU[Jj[6]]=t(VU[Jj[1]],Jj[4]);else repeat local NR,YR=bJ,VU;do if not(#NR>0)then else local Rx={};for P3,g3 in C,NR do for Hq,Gq in C,g3 do do if not(Gq[1]==YR and Gq[2]>=0)then else local yo=Gq[2];if not(not Rx[yo])then else(Rx)[yo]={YR[yo]};end;Gq[1]=Rx[yo];(Gq)[2]=1;end;end;end;end;end;end;until et;local fH=Jj[6];return mt,fH,fH;end;end;else do if Rj==111 then(VU[Jj[6]])[VU[Jj[1]]]=Jj[4];else do VU[Jj[6]][Jj[5]]=Jj[4];end;end;end;end;else do if not(Rj>=114)then if Rj~=113 then do(VU)[Jj[6]]=Jj[5]>Jj[4];end;else VU[Jj[6]]=lU[Jj[8]];end;else do if not(Rj>=115)then do repeat local ZZ,IZ=bJ,VU;if not(#ZZ>0)then else local yP={};for jT,bT in C,ZZ do do for By,Ay in C,bT do if not(Ay[1]==IZ and Ay[2]>=0)then else local l_=(Ay[2]);if not(not yP[l_])then else(yP)[l_]={IZ[l_]};end;do Ay[1]=yP[l_];end;do(Ay)[2]=1;end;end;end;end;end;end;until et;end;do return et,Jj[6],1;end;else if Rj~=116 then local qX=Jj[6];for i1=qX,qX+(Jj[1]-1)do VU[i1]=IU[OJ+(i1-qX)+1];end;else VU[Jj[6]]=Jj[5]~=VU[Jj[3]];end;end;end;end;end;end;end;else if not(Rj>=121)then if Rj>=119 then if Rj==120 then do VU[Jj[6]]=Jj[5]<=VU[Jj[3]];end;else(VU)[Jj[6]]=VU[Jj[1]]+VU[Jj[3]];end;else if Rj~=118 then Vt[Jj[1]]=VU[Jj[6]];else if Jj[3]==90 then bU=bU-1;(vJ)[bU]={[1]=(Jj[1]-12)%256,[2]=9,[6]=(Jj[6]-12)%256};elseif Jj[3]~=4 then VU[Jj[6]]=IU[OJ+1];else bU=bU-1;(vJ)[bU]={[6]=(Jj[6]-75)%256,[3]=(Jj[1]-75)%256,[2]=30};end;end;end;else if Rj>=123 then do if not(Rj>=124)then VU[Jj[6]]=Jj[5]*Jj[4];else if Rj~=125 then if Jj[3]==99 then bU=bU-1;(vJ)[bU]={[2]=29,[6]=(Jj[6]-81)%256,[1]=(Jj[1]-81)%Ft};else local cD=(Jj[6]);local KD=(aU-OJ);if not(KD<0)then else KD=-1;end;for dA=cD,cD+KD do VU[dA]=IU[OJ+(dA-cD)+1];end;do SU=cD+KD;end;end;else(VU)[Jj[6]]=Jj[5]==Jj[4];end;end;end;else if Rj==122 then VU[Jj[6]]=Jj[5]<Jj[4];else local jB=VU[Jj[1]]/VU[Jj[3]];do(VU)[Jj[6]]=jB-jB%1;end;end;end;end;end;else if not(Rj<135)then if not(Rj<140)then if not(Rj>=142)then if Rj==141 then VU[Jj[6]]=VU[Jj[1]]-VU[Jj[3]];else local V_=(Jj[6]);VU[V_](VU[V_+1],VU[V_+2]);SU=V_-1;end;else do if not(Rj>=143)then VU[Jj[6]]=z(VU[Jj[1]],Jj[4]);else if Rj~=144 then do if not(VU[Jj[6]])then else bU=bU+1;end;end;else local X3=(Jj[6]);VU[X3]=VU[X3](VU[X3+1],VU[X3+2]);SU=X3;end;end;end;end;else if not(Rj<137)then if not(Rj>=138)then(VU)[Jj[6]]=VU[Jj[1]]%Jj[4];else if Rj==139 then(VU)[Jj[6]]=Jj[5]*VU[Jj[3]];else if VU[Jj[1]]==Jj[4]then else bU=bU+1;end;end;end;else if Rj~=bt then if not(VU[Jj[1]]<=VU[Jj[3]])then bU=bU+1;end;else VU[Jj[6]]=VU[Jj[1]]==VU[Jj[3]];end;end;end;else if Rj<130 then if Rj>=128 then do if Rj==129 then VU[Jj[6]]=z(Jj[5],VU[Jj[3]]);else(VU)[Jj[6]]={};end;end;else if Rj~=127 then do VU[Jj[6]]=v(Jj[5],Jj[4]);end;else if Jj[3]~=51 then repeat local iA,hA=bJ,VU;do if not(#iA>0)then else local qb={};for Df,Gf in C,iA do for uI,eI in C,Gf do do if not(eI[1]==hA and eI[2]>=0)then else local Wu=eI[2];do if not(not qb[Wu])then else(qb)[Wu]={hA[Wu]};end;end;(eI)[1]=qb[Wu];do eI[2]=1;end;end;end;end;end;end;end;until et;return mt,Jj[6],SU;else do bU=bU-1;end;vJ[bU]={[6]=(Jj[6]-53)%256,[3]=(Jj[1]-53)%256,[2]=Ut};end;end;end;else if not(Rj<132)then do if not(Rj<133)then if Rj==134 then do VU[Jj[6]]=Jj[5]>=VU[Jj[3]];end;else if Jj[3]==232 then bU=bU-1;vJ[bU]={[2]=4,[3]=(Jj[1]-141)%256,[6]=(Jj[6]-141)%256};elseif Jj[3]==216 then bU=bU-1;(vJ)[bU]={[2]=19,[1]=(Jj[1]-103)%256,[6]=(Jj[6]-103)%256};elseif Jj[3]==75 then bU=bU-1;do(vJ)[bU]={[1]=(Jj[1]-17)%256,[6]=(Jj[6]-17)%256,[2]=19};end;elseif Jj[3]~=229 then VU[Jj[6]]=not VU[Jj[1]];else bU=bU-1;do vJ[bU]={[2]=9,[6]=(Jj[6]-76)%256,[1]=(Jj[1]-76)%256};end;end;end;else VU[Jj[6]]=Jj[5]/VU[Jj[3]];end;end;else if Rj==131 then if Jj[3]==89 then bU=bU-1;vJ[bU]={[2]=19,[1]=(Jj[1]-3)%256,[6]=(Jj[6]-3)%256};elseif Jj[3]~=244 then repeat local Wr,rr,Br=bJ,VU,Jj[6];if not(#Wr>0)then else local yj=({});for zy,oy in C,Wr do for PG,zG in C,oy do if not(zG[1]==rr and zG[2]>=Br)then else local K_=(zG[2]);if not(not yj[K_])then else yj[K_]={rr[K_]};end;(zG)[1]=yj[K_];zG[2]=1;end;end;end;end;until et;else bU=bU-1;vJ[bU]={[1]=(Jj[1]-185)%Ft,[6]=(Jj[6]-185)%256,[2]=9};end;else(VU)[Jj[6]]=Jj[5]-Jj[4];end;end;end;end;end;end;end;end;end;end);if KU then do if ZU then if gU==1 then return VU[PU]();else do return VU[PU](T(VU,PU+1,SU));end;end;elseif not(PU)then else do return T(VU,PU,gU);end;end;end;else if j(ZU)~=sQ then(Q)(ZU,0);else do if Tt(ZU,QQ)then return qQ();end;end;if Tt(ZU,fQ)then(Q)(YQ..(xJ[bU-1]or"(internal)")..": "..s(ZU),0);else Q(ZU,0);end;end;end;end;if not(S)then else(S)(AJ,VJ);end;return AJ;end;local Gt,jt=Zt,(Zt);for iJ=0,3 do if iJ<=1 then if iJ~=0 then do jt=Gt();end;else function Gt()local Ms=({Zt,Zt,Zt,{},{},Zt,{},Zt,Zt});local Hs,Fs,es,Ws=Zt,Zt,Zt,Zt;do for DE=0,4 do do if not(DE<=1)then if not(DE<=2)then do if DE~=3 then do for F9=1,Ws do local S9,R9,b9=Zt,Zt,Zt;local n9=(1);do while n9~=4 do if not(n9<=1)then if n9==2 then b9=r();n9=0;else R9=r();do n9=2;end;end;else if n9~=0 then do S9=r();end;n9=3;else for YC=S9,R9 do do Ms[7][YC]=b9;end;end;do n9=4;end;end;end;end;end;end;end;else Ws=r();end;end;else es=1;end;else if DE~=0 then Fs={};else Hs={};end;end;end;end;end;local rs,ds,us,Ys,ls=11,Zt,Zt,Zt,(Zt);repeat if rs<=5 then do if not(rs<=2)then if rs<=3 then do ls=Z()~=0;end;rs=7;else do if rs==4 then(Ms)[18]=r();rs=10;else do Ms[2]=m(1,1,ds)~=0;end;rs=9;end;end;end;else if not(rs<=0)then if rs~=1 then Ms[19]=r();do rs=1;end;else ds=Z();rs=5;end;else Ys=Z();do rs=3;end;end;end;end;else if not(rs<=8)then if not(rs<=10)then if rs~=11 then do us=r()-133748;end;rs=0;else do Ms[10]=Z();end;rs=2;end;else if rs~=9 then Ms[1]=Z();rs=8;else Ms[6]=m(2,1,ds)~=0;do rs=6;end;end;end;else if not(rs<=6)then if rs~=7 then(Ms)[9]=Z();do rs=13;end;else for pF=1,us do local IF=(1);local bF,UF=Zt,Zt;do while IF~=2 do do if IF==0 then UF=Z();IF=2;else IF=0;end;end;end;end;IF=0;while(et)do if not(IF<=0)then do if IF~=1 then do if UF==36 then bF=et;elseif UF==246 then bF=w();elseif UF==90 then bF=w()+r();elseif UF==71 then bF=w()+r();elseif UF==117 then bF=w();elseif UF==245 then bF=q(x(Ys),5);elseif UF==48 then bF=q(x(Ys),5);elseif UF==221 then bF=q(x(Ys),6);elseif UF==51 then bF=mt;elseif UF==OQ then bF=p();elseif UF~=253 then else do bF=q(x(Ys),Z());end;end;end;IF=2;else if UF==36 then bF=et;elseif UF==246 then do bF=w();end;elseif UF==90 then bF=w()+r();elseif UF==71 then bF=w()+r();elseif UF==117 then bF=w();elseif UF==245 then do bF=q(x(Ys),5);end;elseif UF==48 then bF=q(x(Ys),5);elseif UF==221 then bF=q(x(Ys),6);elseif UF==51 then do bF=mt;end;elseif UF==OQ then bF=p();elseif UF==253 then bF=q(x(Ys),Z());end;do IF=3;end;end;end;else if UF==36 then bF=et;elseif UF==246 then bF=w();elseif UF==90 then do bF=w()+r();end;elseif UF==71 then do bF=w()+r();end;elseif UF==LQ then bF=w();elseif UF==245 then bF=q(x(Ys),5);elseif UF==48 then bF=q(x(Ys),5);elseif UF==221 then do bF=q(x(Ys),6);end;elseif UF==51 then do bF=mt;end;elseif UF==152 then do bF=p();end;elseif UF~=253 then else bF=q(x(Ys),Z());end;do break;end;end;end;do Hs[pF-1]=es;end;local GF=({bF,{}});for ss=0,2 do if not(ss<=0)then if ss==1 then es=es+1;else if not(ls)then else for vT=0,1 do if vT~=0 then it=it+1;else b[it]=GF;end;end;end;end;else do(Fs)[es]=GF;end;end;end;end;rs=4;end;else do Ms[16]=Z();end;rs=12;end;end;end;until rs>12;rs=1;local Vs=(Zt);while rs<3 do if not(rs<=0)then do if rs~=1 then Vs=r();rs=3;else(Ms)[10]=r();rs=0;end;end;else(Ms)[13]=Z();rs=2;end;end;local ys,Ts=Zt,Zt;for Zd=0,6 do if not(Zd<=2)then if not(Zd<=4)then if Zd==5 then Ts=Z();else for lo=1,ys do local jo=({Zt,Zt,Zt,Zt,Zt,Zt,Zt,Zt,Zt,Zt});local Ho=R(Ts);local Uo=21;while Uo~=22 do if not(Uo<=10)then if Uo<=15 then if not(Uo<=12)then if Uo<=13 then(jo)[10]=m(14,18,Ho);Uo=17;else if Uo~=14 then(jo)[12]=m(20,23,Ho);do Uo=12;end;else jo[15]=m(6,14,Ho);Uo=5;end;end;else do if Uo~=11 then(jo)[3]=m(14,9,Ho);do Uo=9;end;else do(jo)[10]=m(14,18,Ho);end;do Uo=20;end;end;end;end;else if not(Uo<=18)then if Uo<=19 then jo[14]=m(29,10,Ho);Uo=8;else if Uo~=20 then jo[2]=Z();Uo=1;else jo[6]=m(6,8,Ho);Uo=8;end;end;else if Uo<=16 then jo[19]=m(5,17,Ho);Uo=11;else do if Uo==17 then jo[6]=m(6,8,Ho);Uo=8;else(jo)[11]=m(21,10,Ho);Uo=2;end;end;end;end;end;else do if not(Uo<=4)then do if not(Uo<=7)then if not(Uo<=8)then if Uo~=9 then do(jo)[14]=m(29,10,Ho);end;Uo=18;else jo[17]=m(30,14,Ho);do Uo=1;end;end;else(jo)[3]=m(14,9,Ho);do Uo=22;end;end;else if not(Uo<=5)then if Uo==6 then do(jo)[3]=m(14,9,Ho);end;do Uo=18;end;else(jo)[17]=m(30,14,Ho);Uo=2;end;else(jo)[1]=m(23,9,Ho);Uo=16;end;end;end;else if not(Uo<=1)then if not(Uo<=2)then if Uo==3 then do jo[6]=m(6,8,Ho);end;Uo=3;else(jo)[19]=m(5,17,Ho);do Uo=13;end;end;else(jo)[17]=m(30,14,Ho);Uo=14;end;else do if Uo~=0 then(jo)[12]=m(20,23,Ho);Uo=10;else jo[6]=m(6,8,Ho);do Uo=16;end;end;end;end;end;end;end;end;Ms[5][lo]=jo;end;end;else do if Zd~=3 then ys=r()-133782;else(Ms)[17]=r();end;end;end;else if not(Zd<=0)then do if Zd~=1 then do(Ms)[8]=Z();end;else Ms[3]=Z();end;end;else do for g3=1,Vs do(Ms[4])[g3-1]=Gt();end;end;end;end;end;local os=(J[Ms[3]]);rs=0;while(et)do if not(rs<=0)then if rs~=1 then return Ms;else Ms[11]=Z();rs=2;end;else do for q7=1,ys do local G7,c7,j7,t7=0,Zt,Zt,Zt;while G7<4 do if G7<=1 then if G7~=0 then t7=j7==10;G7=3;else c7=Ms[5][q7];G7=2;end;else do if G7~=2 then if j7==12 then(c7)[10]=q7+(c7[10]-131071)+1;end;G7=4;else j7=os[c7[2]];G7=1;end;end;end;end;do G7=0;end;do while G7~=3 do do if not(G7<=0)then do if G7~=1 then if j7~=1 then else local Cg,Sg=Zt,Zt;local Bg=1;while(et)do if Bg<=0 then Sg=Fs[Cg];Bg=2;else if Bg~=1 then if not(Sg)then else local gf=(Zt);for Gi=0,2 do if Gi<=0 then c7[8]=Sg[1];else if Gi~=1 then do gf[#gf+1]={c7,8};end;else gf=Sg[2];end;end;end;end;break;else Cg=Hs[c7[10]];Bg=0;end;end;end;end;do G7=3;end;else if not((j7==7 or t7)and c7[3]>255)then else local bG=(2);local mG,cG=Zt,Zt;repeat if bG<=1 then do if bG~=0 then cG=Fs[mG];bG=0;else if not(cG)then else(c7)[4]=cG[1];local oG=cG[2];(oG)[#oG+1]={c7,4};end;do break;end;end;end;else do if bG==2 then c7[9]=et;bG=3;else mG=Hs[c7[3]-256];bG=1;end;end;end;until(mt);end;G7=2;end;end;else do if not((j7==8 or t7)and c7[1]>255)then else local cE,AE,EE=2,Zt,(Zt);do while cE<=3 do if not(cE<=1)then if cE==2 then(c7)[7]=et;do cE=3;end;else do AE=Hs[c7[1]-256];end;cE=1;end;else do if cE~=0 then do EE=Fs[AE];end;do cE=0;end;else do if not(EE)then else local LI=(Zt);for jw=0,2 do if not(jw<=0)then do if jw~=1 then do LI[#LI+1]={c7,5};end;else do LI=EE[2];end;end;end;else c7[5]=EE[1];end;end;end;end;cE=4;end;end;end;end;end;end;end;do G7=1;end;end;end;end;end;end;end;rs=1;end;end;end;end;else if iJ~=2 then b=Zt;else(Vt)[1]=b;end;end;end;return Pt(Zt,jt,I)(...);end)("\98\110\111\116",setfenv,"\115\116\114\105\110\103","\98\111\114",16777216,nil,string,true,select,"\114\115\104\105\102\116","\35","\98\97\110\100",136,false,"\46\46",next,"\96\102\111\114\96\32\115\116\101\112\32\118\97\108\117\101\32\109\117\115\116\32\98\101\32\97\32\110\117\109\98\101\114",table.insert,tonumber,tostring,"\114\101\112","\97\116\116\101\109\112\116\32\116\111\32\121\105\101\108\100\32\97\99\114\111\115\115\32\109\101\116\97\109\101\116\104\111\100\47\67\37\45\99\97\108\108\32\98\111\117\110\100\97\114\121",coroutine.yield,178,"\98\120\111\114",bit,"\96\102\111\114\96\32\105\110\105\116\105\97\108\32\118\97\108\117\101\32\109\117\115\116\32\98\101\32\97\32\110\117\109\98\101\114",string.gsub,rawset,rawget,_ENV,type,table.unpack,"\94\46\45\58\37\100\43\58\32",setmetatable,152,error,209,unpack,117,"\76\117\114\97\112\104\32\83\99\114\105\112\116\58","LPH$CE5201494HADDAA1AA2HADDAAAADDAAADAADAAA1A72HAADA2HADDA2HAADDADDDDA2HAACA7DC73HAACAAAADDDADDA2HAADAA72HAADAADD1ADAA1ADDDAAD2HAAADDAAD2HDA3HAAADDA0D4H008CEB2DBF2702C2750A02004562983D7EFE5HFF81649D0D0200413EB433D1027H0051439AD22702BFA70A02005900DD093H00CE3B20BD52403B0427DD103H00832885DA673376B3AE442C16CE169D0333DD0A3H00133815EAF711D89A3828DD0C3H00DD723F848111C63CC39FE9FADD0F3H0049FEEB506DDD90E07EF5472A5C6470DD0B3H009CD90E7B608FF328D7C4E299DD0B3H00C368C51AA7CF06706811F9DD093H00A2EFB431A63D1D2D5EDD0A3H0037BCF92E9BDF42C10AA6DD0A3H00C1B6E388E54EA6AEE55B98047H00DD0C3H002B90ADC20FA734B215FD1B3CDD0D3H0057DC194EBBD452A1EB9688B864DD083H00A8055AE7ECC73727DD0C3H00B0CDE22FF41389FCD4F00B1998F87H00DD0B3H00FC396EDBC002ADDC656D9A98E8036H00DD0C3H0023C8257A0740BC1F4BE5C33398F97H00DD083H004F149106B3AAD0FA98FF7H00DD0C3H00971C598EFBBF227BB140446EDD0F3H0043E8459A2773B6F0EE87644C0B51C9DD0B3H0026D3F8D5AAC4480BC77567DD093H009D32FF4441541A7C0098027H00DD113H00BA474C09BECC75592FEA20B032927A99AFDD0A3H00D75C99CE3B7FE2367612DD4H00DD0D3H006156832885AE08025CB3A9553FDD0D3H0062AF74F1664C6E50B8A435F6A0DD093H005B40DD723FDBDE1AD79800016H00DD093H0048A5FA878C16A18735DD0A3H006D82CF9411F650395966DD113H00179CD90E7B1398E632C1D5F7B709A776C2988H00DD0B3H00AC691E0B70FFC398D354D2983D7H00DD0A3H005378552A37E3A643F4E4DD0A3H001DB27FC4C1E9BCE5905698017H00DD0B3H00C7CC893E2BFED8AF6DB123DD0D3H00C67398754A08837A21D5C35CA6DD0A3H009FE4E1D603F75A3B8388DD093H00A95E4BB0CD81479503DD0A3H00E693B8956A28A34901ACDD093H00C05DF2BF04758F53AD65F57E12320048959B032B067H008FD4A1774103B3740A0200ED0070206A3903006E27AB3B326H00280BE242AB0A0200932H5256D24FED2DEE6D4F941497144F2HF7F6F70E86C62H862H71F12H71222HA810DA542HDB60AE54BA9101B35DF5F2E3D11EBCE5BD16733FE931EA08AE6E261321F9DEDC480C901ACE4F3A239018A70AE2EBAC4C0A7DE603CB70243H647C473H077F2HD656D637CE4H0060621A4F780384740A0200CD0010A007380601E36EF202965H000182195F4AB00A02001F01C102814F048407844FB3F3B0334F2H3E3F3E0E95D52H957168E82H682227E71F2H540282B87754E9E1C34602CCF86ED80A1BBA507811C6F5B7C802FD9B6DD41570699F907B0F0316F7343HCA4A4F2HD151D137943H140003C3FC7C4F4ED478FD85254AD83B8378B887074FF702E01F2E92526DED4F393HB9671C3H9C7F1A4H009AB70FDD3A002F740A020071005A26AF03020049599C2ED56H00A6A9642CA80A0200F7AB6BA82B4FEE6EED6E4FDD9DDE5D4FA8E8A9A80E3F7F2H3F7152D22H522251116921546C2C561B549305093263F6D856F30205864F1D6B306087B72067575844349AA79DD22F39E248B67534B6E05A043B9201D2362HFE7EFE37554H00896FA8887B03A7780A02004D0098017H00DD0B3H0025BEC34411C9EACCD8156FDD0D3H00BC29F26798274F0451305F5EFCDD063H00EDE6CBAC5941551396210B01320F3D3BE95H000177FCBE58D30A0200F52DAD26AD4F36763DB64F2H4348C34FE4A4E5E40EE9A92HE97162226362222H9F26ED542H300B465465A1701A260E58E05E363B312ECD407C1760E88A21A07A841DFA1A050D61173B0C8A4F88488F084F5D1C2H9C603H66E64FF3722H337194549594253H59D94F2H9293122H4F8F71F047203HE0003H55D54F3EBE2HFE71EB2BAB2B726CEE2H6C713H91114FAAE82HAA714705870413F8FEAA30850D8F8D0C903H96164F2321A3A52E8415C95B3A2HC935B64FC282C2424F2H7FFF7F37503H907FC5C745C52C2E2C2E2F6C5B1A2H1B225C1D2H1C8FC13EE25D5C2H1A23A54377B72HF73BE868E8684FFD3H7D80C6B351AE2E1393ED6C4F343HF422F93H398FF2FE974C7E6F2E2H6F7100812H402275342H358F1EB6AF91198B0A2H0B7CCC4D2HCC592H718A0E4F5E4H00A738AF9A5A03C0740A02006D00CAC6C70B0300E0160825AD6H000C488B53AC0A02009F0A4A0E8A4F2H9195114F549457D44F2HC3C2C32H0E4E2H0E7125A52H2522B83881C95437770D425412FB90CA497934E36E441C97E37B402BE318408A56556F0B854DD3F4A8460061F73653DFBC460B1C1AB0077E47E1B9090736645CCC02529367847B2EDE3H9E7F2HF575F5373D4H00F6D41D4016002D7A0A0200B100988H0098017H00DD0A3H001784E12E6BE8C7ABD1D898FF7H00F63H00205FA00242DD063H00895613C05DEDF0946802080646EB625E7C6H005AC1737FD90A0200DFC848C2484FC787CD474F2HE2E8624F09C92H090EEC6C2HEC71FB3BFAFB2266E65E14541D5D266A5410DE04F349AF4546C2546A82047B8171FBB1BF2EB493DA382EA32E01E879AE6CE62B50854583054F586162AA13179713974F2H7277F24F992HD9D85FBC7C2HFC714B0BB5344F763HF6226D3HED8F6038D0F40FFF3H3F22FA3H3A8FC149275F7E84852H8422F373F3734FFE2H3E3C5FD555D5545FE8A814974F6766E7655F0282FC7D4FE93HA9222H0CF0734F9B1B64E44F06C6868756BD3DBD3D4F3034E2F9850FCE198E83CA4A34B54F915169EE4F4H94002H034243228E3HCE8FA535F7C45578F8F9F822B72H37B6903H92124F3H79B42E5C3H1C226B2B2HEB22D6562H16224D3H8D8F00A244B06E9F2HDF5F432H5ADA5A37212H61E147A4E45DDB4FD3921393003H5EDE4FB5742HF571C8CD9A0085478606054D22E2DF5D4FB82H00E6FE6C4F370D0200192H493DC94F66A615E64F57D724D74FECACEEEC0E2H3530357182428482226323DA1154A8E892DD54E1C9E9918BDEE7733E0E6FAD0CB27364626CD56F4D55A1DF85BAB9A3095BBB5A765C2D20F842836BF9EB0CD902569639D64F478D2H07045C1C55DC4F65E578E54F32F2FA6201135345934F18D852984F11461D8B7F2HCE554E4F5F1F5FDF4F54DEDD0658FD7D03824F6AAAEEEA4FEBAB20F81B501025D04FA9E957D64F468F4E4D603HB7374FCCC5C9CC71959CDE872462A262E24FC389D5C483884877F74F4188C2C1712HBEBC3E4F0F2CB93885C4A732C185EDA42E2D225A905251603H9B1B4FC0CAC5C071D9D39ECD24767F36343D67E79B184FBC1F0A792H850B57DF855292AD2D4F333A73713D3HF8784FB1F871022E2HAEFB2E4F3FB474A92434FF33E2241D8DCF4185CA41C65D4D4BCBBF344F30B9382123098976894F26AE9F267517D7E8684F2HAC2CAC37F5FDF5E50942C2BC3D4FA32B232013A860687813A1A92120683H9E1E4FEF676FE72E24A425758A8D4D010D4F3AFABDBA4FFB3DFCFB22E0A620A02C793F2H398FD6E81D0C604701CEC722DC9A2H1C0E25E5DA5A4FF277323052D3D52HD38098DE2HD88011572H518F4E9CD56B1F9F192H1F80D4142BAB4F7DBBBEBD22EA2C2H2A8F6B95EE044F105711100E3H6968133H060C133H777E132H8C0C85132H55D55D132H22A22813834383034F08845A5885810180014F3E2H79FE0D2HCFC92H4F0483474480ADEA2HED8F5A977E967E1B5CDCD90D80C081004F59CE14863AF63688764F27E722A74F7CF92HFC80458085875412D2E76D4F732H34BA0D2HB8B9384F31762HB10E3H6E6013BF382H7F0E3HB4BB131D5DE7624F4A0D8D9D0D4B2H0C8E0DB0F777650D892HCE460DA62HE1730D97D0504F0D2H6C95134FF52HB2240D422H05900DA32HE4740D682H2FA40DA1E6666D0D1ED99EDE6E2H2FD4504F246403A44F4D854ECD47FABAFA7A4F3BB1E53B47602045E04FB9F9BCFE8AD616D6564F87C7A3074F9C114EC585E56582654FF2FACC7243939B98932298902H988F1190A5EA4F4E07584183DF1F20A04F149C9F94227DBD80024FEA232HE2603H6BEB4FD0D9D5D0716920623B243HC6464F773E323771CC450B5E243H15954F62EBE7E271834AC34513C8421E1C8381C84140683H3EBE2H4F868F9C2E040E041009ADE72HAD1E5A9D27D10E1BDBD8081B400065C04F19532H592BB67649C94FE7ED67F313BC7C43C34F45C544C54F1218A45247F37393734F3833EE6C83B1FCE76A76EE642H2E1EFF9F8ABE327434A10B4FDD964BDA832HCA34B54F4B82C2C6603HB0304F09808C89712HA6A7264F57A12AFA832C6C3BAC4F35B9E77B8582CA42CC13A3235DDC4FA8F4E9CE76A161A6214F1EDE599E4F6F69E6E14DE464EC644F4DC31F1785BA7A45C54FFBB569708520E0DF5F4F39B32HB980169C2H968F07DB36A3549C538E8B85A5655ADA4FF2B832B3103H53D34F1852582B2E51982HD1060ECE658E4F1FD69F9D3D3H54D44FBD34BD6D2EEA899CEC852BABD1544F10D9909152696C60F84D464B148A85F7B7F7774FCC461A1883D5952BAA4F228114E785038900032248065ADE852H01FD7E4F7E336CE585CF464F4E5444CD2HC48FED68FE59881AD00C8983DB1B27A44FC0CD120E85D9501A1971763680094FE7AD27A72C3C762H7C8FC5D865BA1A529A128613B39705F7853870B22B4D31F108B14FAE292FFF6FFF7FF67F4FF46CB92B3A9D1DCD1D4F8A4A8A0A4F4B838B991370B08F0F4F49C041583C2H6698194F579799284F6CE62HEC8035F5CA4A4F428889822263A39C1C4FE867BAB58561A19E1E4F9E2HD5DE22EFA42HAF8FE4D1E9EB420D0724B2437A594C4D857B71AD28832069E3E022B9702H798F962C4BEF19478E870690DC15555160253CE87A3A2H729E0D4F1393FA6C4F189118196891516EEE4F0E9643D13A5F9F43DF4F2H1415944FFDF4FCFD713H6AEA4FEBE2EEEB715073661585A9E954D64F46C6F9394FB7FF2HB7042HCC39B34F951552EA4F6222851D4F2HC326BC4F88484A981B2HC190414FBEFEBF3E2H4F078F091384447BFB4F6D0F9B6E855A9AA5254FDB139B9A68C0403DBF4F2HD91CA64F36BF3637683H67E74F3C35BC4C2E851349DF7F529206D24F2H7372F34FF8F1F9F8713HF1714FAEA7ABAE713F72ADA5852HF4098B4F5D9DAE224FCA6E7C02854B2H404B22303B2H308FC94DFB4F61A6ECF45943971D1C17222HAC52D34FB53867E385424BC242722H23E7301B6828DD174FA1F7AD3B7F9EDEB81E4F6FEF60EF4FE4E149E4478DCD44F24FBA33BA3A10FB7BFC7B4F202820A190B970AF2B8316D6E9694FC7CEC7D6131C5C1E9C4F65ADE5A56EF2FE20398513DB2HD38018D02HD88F11F6E8D0818E870E9E131FDFE3604F94DC5C4C0DFD2HB53D0D2H2A2DAA4F2B6639B285505A86028369A993164F462H0E930D77B78A084FCC448F8C80155DD2D70D622H2AAB0D830383034F8810C5573A8101B3014F7EFE7BFE4F8FC747580D042H4CC10DADE565780D2H1A189A4F9BD32H5B5980892H800E99D999194FF6FEF7F60E27E7DC584FFCB66AEE83C5CF139783129B92139033F3C84C4FF82HB0370DB17148CE4F2E2H66FC0D7F3F7FFF4FF42HBC250D1DDDE3624F4A2H029D0D4B2H03870DB0F8787C0DC9493DB64F2HE622994FD7DE2HD77F6CE5647D5EB5F5B5354F02CF901885E3231D9C4F28212H288F2HE13C9E4F2H5E5DDE4F6F25AF3B09646E2H241E4D1FCC8030BA34E8E7852HBB70C44F60A8821F47F97935864F56DEDDD622870FBA0743DCD4D7DC22E5251A9A4FF2BBE4FD8393D36DEC4F98119089642H11C86E4F0E83DC5785DF9FFD5F4F94559694717D7C3F7F24EAAAEF6A4F6B2FF16B443HD0504F292D2C29718682C2C62277332H378FCC1B52E618955110152H22A6E8E22283472H438F887DE4B07E41442H41803E3B2H3E8F0F7896115244410004222D68A4AD225ADF2HDA8F1BDEFC09738085454022995C2H598FB61A863A0AE7E1ECE722BCFCBC3C4F05C44C45713HD2524F7336178C43F8397F784H71F14FAE2F2B2E71FF3E353F713H74F44F1DDCD8DD71CA48CBCA713HCB4B4FB0B2B5B071C90B8A89713HA6264FD795929771AC2E242C71B5377C75713HC2424F63A1A6A371E8ABEAE8713HA1214F1E1D1B1E71AF6CE3EF713HE4644F4D0E080D713AF9B2BA713H7BFB4FA02325207179FA3CB844965664E94F47C74147713H9C1C4F2HA5A0A5712HB2FEB2243H53D34F2H585D58719151D7D1714ECEC80E242H1F999F713H54D44FBD3D383D712H2AEFAB24EBAB2D2B713H509124E9A907964FC6AA3CC185F737E3774F0C8C2D8C4F95DF55D52CA2A822B6132H03B67C4F089B45D73A0181A87E4F2HFEEF7E4FCF46CF5D132HC47BBB4F6DADA979122H9A5FE54FDB9BDA5B4F40CA07002259132H198F36D2257B5167ED2HB183FCA264477C0585F87A4F925240ED4FB33375A01B38F888474F3171CC4E4FAEE46EFC13FF3FF47F4FB472313D1C9DDD9D1D4F8A0F0C804D8B4B75F44FF0B6747D77C98F0144896679D02685579757D74F6CEA2HEC13B515030B85020482836863239E1C4FA82878D74FE16A617513DE0ECCD7856FE3B9BB83A4E9B2BC830D464DCC90BA31FE6D0BFBF03031603HE0604FB9727C7971569C5D4116874C030E1CDC97584B77E5AE2D72897237E46A8313938E6C4F589110091C915190114F4E47C6DF0F5F9F5EDF4F145D1D068DFD306FE7856AE3627B88AB695199132H50892F4FA969A8294F06CFCE5411B7F74AC84F8C2H45DE4C95D568EA4FE240D42785C3033CBC4F8801809977C1813ABE4FBE3EB13E4F0FCFE1704F848E0490132DAD8E524FDA52515A229B930CE443C0C8CBC02299D1D9D11D36B6C8494F6745463E1E3CBC28BC4FC58C2HC51E52D2A92D4F7333AB0C4FF8B8F0EC25F131188E4FAE6E03D14F7FB5BFBD13F4FFF4E1139DD75D5C680A845854854B8BB4344F30F0AE2H4FC901091B13E66FB03483175D810583EC8F1AE885F53B67EC854248425313E3AA23224H68E84FE12821612E9E949E8F136F65EF6F103H64E44F8D870DCF2E3A732H3A063HFB7B4FA0A9208C2EF970AF2B83561F16071387E47183855C2H950E16A52C253413F2FB35322213DA2HD38F982493EF43D1985842164E47898E22DF55890D8314DD5EC716BDF4BDBF3D3H2AAA4FABA22B382E50DD820985E96160784D068F0E17603H77F74F8C85898C71D55D5C444D62EAE3A06EC383C6848A48C882374F2H8171FE4F7EF7766F15CF8F09B04F4492C85E7FED6D58924F1A9A73654F5B12CD5483C0880080721991998913F636F6764FA77B2H1E857CB52HFC1E455EC3BA1E1292C86D4FF33BB3220978F02HB81EB1355010142E26EE6F8C3F772H7F80F4BC2HB48F1DBAEF6D428A022H0A800BCBF4744F30F82HF02BC989C9494FA6EE66E4132HD72CA84FAC4EDA5585B5FF23A48302C2F87D4FA3EB2HE37F68622H281EE1A1099E4F5EDE85214F2FE785504724A4F25B4F8D0649441C3A317EED777B7073AC8960A061E04F39B27DEE0BD696D4564F07A2B1B385DC9CDC5C4F256E65E490F2B20C8D4F53B6A5D58598D898184F51159106134ECEC8314FDF9249C783945469EB4FBDB67677603HEA6A4FAB606E6B71501ADBC74D29A9D3564F83793H00013H00083H00013H00093H00093H00E4813D740A3H000A3H008BF062120B3H000B3H00D92775260C3H000C3H004DA3F03C0D3H000D3H004E82F33F0E3H000E3H006D5B12170F3H000F3H00A8373C39103H00103H00A3B56A24113H00113H00EE547B09123H00223H00013H00233H00253H00023H00263H00273H00013H00283H00283H00023H00293H002B3H00043H002C3H002D3H00013H002E3H00303H00053H00313H00323H00063H00333H00343H00013H00353H00373H00063H00383H00393H00013H003A3H003C3H000E3H003D3H003E3H00013H003F3H00403H000E3H00413H00423H00013H00433H00453H00313H00463H00473H00013H00483H00493H00313H004A3H004B3H00013H004C3H004E3H00523H004F3H00513H00533H00523H00533H00013H00543H00553H00533H00563H00583H007E3H00593H005A3H00013H005B3H005C3H007E3H005D3H005E3H00A83H005F3H00603H00013H00613H00613H00A83H00623H00633H00013H00643H00653H00A83H00663H00673H00D73H00683H00693H00013H006A3H006C3H00D73H006D3H006F3H0006012H00703H00723H0007012H00733H00743H00013H00753H00763H0007012H00773H00793H0026012H007A3H007B3H00013H007C3H007D3H0026012H007E3H00803H002E012H00813H00823H00013H00833H00843H002E012H00853H00893H004D012H008A3H008B3H00013H008C3H008E3H0056012H008F3H00903H00013H00913H00923H0056012H00933H00953H0075012H00963H00973H00013H00983H00993H0075012H009A3H009B3H00013H009C3H00A03H007D012H00A13H00A23H009A012H00A33H00A43H00013H00A53H00A73H009A012H00A83H00A93H00A2012H00AA3H00AB3H00013H00AC3H00AC3H00A2012H00AD3H00AE3H00A3012H00AF3H00B03H00013H00B13H00B33H00A3012H00B43H00B53H00DA012H00B63H00B73H00013H00B83H00BA3H00DA012H00BB3H00BC3H00013H00BD3H00BF3H0013022H00C03H00C13H00013H00C23H00C33H0013022H00C43H00C63H004C022H00C73H00C83H00013H00C93H00CB3H004D022H00CC3H00CE3H004E022H00CF3H00D03H00013H00D13H00D23H004E022H00D33H00D53H0052022H00D63H00D73H00013H00D83H00DB3H0052022H00DC3H00DD3H00013H00DE3H00DF3H0055022H00E03H00E13H00013H00E23H00E23H0055022H00E33H00E43H00013H00E53H00E63H0055022H00E73H00E83H00013H00E93H00EA3H0055022H00EB3H00EC3H00013H00ED3H00EE3H0058022H00EF3H00F03H00013H00F13H00F13H0058022H00F23H00F33H00013H00F43H00F43H0058022H00F53H00F63H00013H00F73H00F83H0058022H00F93H00FA3H00013H00FB3H00FD3H0058022H00FE3H00FF3H00014H00012H002H012H005B022H0002012H0003012H00013H0004012H0004012H005B022H0005012H0006012H00013H0007012H0008012H005C022H0009012H000A012H00013H000B012H000B012H005C022H000C012H000D012H00013H000E012H000F012H005D022H0010012H0011012H00013H0012012H0012012H005D022H0013012H0014012H00013H0015012H0017012H005D022H00947EF9F33202F1BB0A02009DFBDD223H0067C845EE937ED1B9A8B1AB455D19FCF06453BAEF0070E1C75B5CE97D9C88FDE0E4D9DD193H00A5CEF3A4315ACC670AF3E5B97A2BB9779D063189A4B518BD64DD0F3H0036BB4C39924CD7D556BF822E783D7ADD103H00DD26EBBCE9B90651476FD4394223B5C6DD0F3H008D161B2C99B1B3C6FDA56C64E58CD9DD0B3H00203D064B9C4F429A4BB8B5DD093H00E3D4A15ACF63674F98DD0E3H000CF952E748E98430E1989EC0B992DD1B3H00E6AB7CA942021135D06C267D2C597AAB40DAE15268F3AD829714B1DD1D3H00B12A5FE0FD06E89818409138DDAE4C87BD2520B8D9EEDBD350DC1F0068DD233H002ED304110A582F23D9A28F377F77BF92AA5EFD5C05DAF6FFEDC234C7A0237ADCCB8166DD1B3H0071EA1FA0BD6416CD1CE57F2304C5209997479A25020B2499D10035DD1A3H00C845EE93C429B1D0AF40D02657B8A714845861A41AC9CAA5CEA1DD203H00565B6CD9B244D205D0F5F2988A5CC70188C4538C4D25EAD4D37AB929139AD831DD1A3H0036BB4C39922FC3FAB15EC2CC11DE26DAACFFD27790E996EC7B50DD163H00F4417A6FB0FEDC6B62EFF5FD020F7A1F60DAAF610877DD0E3H00064B9C4962B2B9C968C0A34315AADD143H0090EDF67B0C208BFD1C45D54DE25578EA71DCB3E5DD0E3H007CA94217B88593A6A199FA275746DD183H00D6DBEC5932268AC6FD0AFC9473848C00BD99C032B3519634DD213H003EA394611ACE6D91CC886875AC2EB9662D3231C0C362FDA8AD48C0318CD8F14509DD113H000374C1FAEF6D1C6E0DAE1FEE5D467DA2E0DD1A3H00E471EA1FA0D4031FED46FB53F028E32HFE244A7AA7D610A76D32DD0E3H00D267C845EE6E0A72DBD761F20C45DD153H00FC29C297385D759C4B6C5C120B8C90E581A27635DCDD213H00A5CEF3A431A642BE2E3B4DEB484363FA937AF752EDF59EE93DAF11C6ADA754EBD8DD313H00AE5384918A5EF31A7F52DB5CE25E42AF7A008D9A92DD02AB2E124B9D57AAFD0B34B662B6DAAFA4CA329BC69267445EEFE8DD0C3H00E3D4A15ACFDABE4CD0866750DD0F3H00E748C56E137C772H131CD5ADEAEE57DD183H004217B8755E50949C6F75E8412FDC83F9DD34FE4F0D4AB098DD1F3H002A5FE0FDC64F33FAC13E820CC19E966361535BBBC68EAAC1E03946F2EB6945DD1A3H00110ABFC05D3B3A043F5597382FDBCE93DE5F3E7D1C90C11AF304DD1E3H0007E8E50E33A9B7C55B3CD467E0FC5DC4E87A9B1A60680CE5A8B1AB867525DD163H0079D267C845218432A576AC5D2BD6298BA692572479A6DD093H00C33481BAAFE5B35FBFDD1F3H006CD9B2C7A871F8E2B26B3941C8A72415162B4FE667B31B3E9312CD95E890D9DD143H00BB4C399227C55958092052257CF96E9FDC80306DDD263H0057F8B59E839230DCA85F78079FB66F030D8B16D732AFB4590D1EF7A39D7C8DA87E9A193048D6DD4D3H00A15ACF90EDAEE2BA66958C61F9A447F9C8110F7A2ED3B4DBA5E384CDB9F8F20B2802280D49EBF9761E83467A75B96DAF1019CB9B4F8BDAC7F4B417DC6FF92B0F6F18E91D49B364ADF3C85A3BB7DD0F3H002ED304110A2BDA36356491557039A2DD143H00351E0374C187205142E016847F84EF17E970ED1DDD113H0071EA1FA0BD8A9C27B2731559E21B3926CFDD0E3H00DA4F106D764C873530CF8EEEA5BCDD0D3H00C4D1CA7F8029107AF95D236FE2980CFE6HFFDD283H00F5DEC33481A61139D334592D655931F830E8AB764F04E8C5E76754F78651F43164C485F83C6D8965DD0E3H002D36BB4C3951207002339C53AC2DDD063H003F40DD26EB90DD153H00E98257F8B59C2CA8CF55E7C8DF4B1EC34E5F8E7E3FDD0F3H008EB364F16A36A983EB250F908977C2DD233H00157EE3D4A1297C3AB577831A616247B4E531E415A6CB460D7043500F85CAE9E70CFE84DD1F3H00B4013A2F70E03793798AC727ECD73C6FA22A656C378203BE8AEBAAA64B9F77DD1C3H00A394611A8F1B26842B751398331BE2530A5FBA9DCE2C3F094231D718988H00DD093H00D778351E03FD499F2FDD1D3H00300D969BAC9342A48FFD554CEB48899A8F2B92830F5CC2B1FBA03721CADD0E3H0021DA4F106D55141B874203B2EF64DD2B3H0093C4D1CA7F109464349565288E7B959E4085A68438EBA0D45495F1C62H35DA1E99E01E69B21D17AD68DCA3DD0C3H00A2F71855BECBF6CDCB28A1EEDD233H0036BB4C3992238E644859E77F123512139CF901ACAD4095FCC899258881682H5B1A2A37DD093H009972876865FF0C970FDD203H006A9F203D06315C7A7546AEF6484641D3E9E49F1CF57F2CC4E60BB232EBA4A556DD183H004AFF009DE6665D21C4E995CE5A710018D921FC24CDB4E4BDDD153H00324728254E8412AD200550707BD025D9C2905BCE41DD0F3H00A394611A8FD81BB98523B78C97A87ADD173H002ED304110AEF92BFB9A6E99F323C8FC6697BBD69E3D1CFDD123H000D969BAC191DA917B19BE0050B35A8DAA811DD0C3H00CB1CC9E237ABC1D7A14CE06FDD0A3H004F106D76FB35991FA31CDD093H0045EE93C4D1A43DEF8CDD2F3H00662BFC29C2AB6971680CB3E09CC827D8A8DC7033D97F87B678FF40A7D415C4DDBCB8F8C9CFBC212B7C4DA3E4D54A6D670D886F1000DE37E561ED173H00153H00013H00083H00013H00093H00093H001BB2431F0A3H000A3H005CF0A1140B3H000B3H004E5FF03C0C3H000C3H00BC2H37160D3H000D3H00C53A154F0E3H000E3H0016AA157A0F3H00123H00013H00133H00143H004F022H00153H00163H00013H00173H00173H004F022H00183H00193H00013H001A3H001B3H004F022H001C3H001D3H00013H001E3H001E3H004F022H001F3H00203H00013H00213H00213H004F022H00223H00233H00013H00243H00243H004F022H00253H00263H00013H00273H00283H0050022H00C34EF7A66600E17A0A02005192DD093H002DDA9764411CA0826CDD263H0082BF0C69D682BAF23A097C21B50ADF154E8FC4B724C46D29673574AF4D75D5D29661C59C7258DD0C3H00801DCA87543771EFE510A8DFDD0F3H00FC59C643D0202355C8F7009E9D92FBDD0A3H00FF4CA91693FB5F4E6BCFDD0C3H00D1BEBBC8E5459293E915133ECFC3EE410500D58E9939406H00110F4F56BE0A0200E72HC6C5464F05C507854F60E062E04FC787C6C70EEA2AEBEA712H393B3922E4645C95542HDBE1AE54CEDD3CE1496DD7775E5228FC4694732F48B3B487F248CB6636612C8194612CEC2H2C71033H43713HD6564F1595545571B07030F04657D72H97223A3HFA8F09A73B6B457475F4742CABAA2HAB8F5E72073D073D2H7D7F10B8382HB8593H7FFF4F3H82012E3171B131383HBC3C4F3H13512E2HE6E7E6713HA5254F80408180712H276667224A3H0A8F196F3D844F04440405562H7BFB7B375A383H00013H00083H00013H00093H00093H0021F63D2E0A3H000A3H009F48245F0B3H000B3H00CD5154400C3H000C3H00E307A3720D3H000D3H0042E2B1360E3H000E3H00B614CA2B0F3H00153H00013H00163H00163H001A012H00173H00183H00013H00193H001B3H001A012H001C3H001D3H00013H001E3H001F3H0020012H00203H00213H00013H00223H00223H0020012H00233H00243H00013H00253H00253H0020012H00263H00273H00013H00283H002A3H0020012H002B3H002C3H00013H002D3H002F3H0020012H00303H00313H00013H00323H00323H0020012H00333H00393H00013H003A3H003B3H0012012H003C3H003D3H00013H003E3H003E3H0012012H003F3H00403H00013H00413H00423H0012012H00433H00443H00013H00453H00463H0012012H00473H00483H00013H00493H004C3H0012012H004D3H004F3H00013H00503H00503H000D012H00513H00523H00013H00533H00533H000D012H00543H00553H00013H00563H00583H000D012H00593H005A3H00013H005B3H005E3H000C012H005F3H005F3H00013H00603H00603H0009012H00613H00693H00013H006A3H006B3H000A012H006C3H006C3H00013H006D3H006D3H001B012H006E3H006F3H00013H00703H00723H001B012H00733H00753H00013H00763H00783H001B012H00793H007B3H0008012H007C3H00813H00013H00823H00833H0017012H00843H00853H0018012H00863H00893H00013H00458F6C8D3800CB860A0200F5C9DD0C3H000D0E037C490AA605CC78357FDD0A3H008112D7607D7C5E6196A8DD113H004F383556EBD5BC0A92C324A2EB72F7C30E988H00DD0F3H00E8A586DB345A290121A2C34689C8D033DD093H002F9815B6CB8A3E9013DD0F3H0070CDCEC33CA000852C8611F6BD6AE9DD083H0097203DFEB34DD4B099DD163H000FF8F516AB883FA266DB411B265F3E915EAD40FBC53FDD0F3H00213277801D62162578B0F9AF0A5686DD093H00A4916267308F950975DD0F3H00C9FADF084529AC2D946CB03DFFCAC7DD0E3H00AC392ACFB832C1F9E96A5B3E1198DD0B3H00EE635CA95ACA3BC758BC7EDD103H00E1F23740DD8A45FDD564CD793F89131C988HFF7D90341F0600D54F71169E5H00011D8F82621F0B020025EE6EF36E4F0B4B168B4F2HFCE17C4F91512H910EDA1ADBDA7127E72327220888B079542H4D76395406F894740E4372CA27045490D2F674891F1B3346724757892EDF28F9748A2HE0FA604FC5058485713H1E9E4FBB3BFAFB712C6C2HAC22813H018F4AF314725E57971716683HB8384FFD2HBD822E763H368F73B363F34F048411844FB979B7394F22A2A1A2718FCF4D0E469011929022F5F42HF58F4EBB4E84733H6BEA903H5CDC4FF12H71CB2E2HBA7A3B243H07874FE8A8696871AD2D692C24E62625674663A26063713HB4344F29E8282971D2C9E4E685FFFEFFFE10C0002H40063H65E54FFE2H7E152E2HDBD55B4F2H4C2H0C80E1211E9E4F2AAAABE26EF7B70E884F2H582H1880DD5D5C156E1696959671D39311524664E566642299982H998F42DE1559713H6FEE903HF0704F55D5558A3H2EEEAF244BCB8FCA243HBC3C4FD1915051711ADAD99B46E726E4E7713HC8484F0DCC0C0D71C6DDF0F285434243421094542H14060989FA764F723H32713HDF5F4FE060A1A071052HC545313HDE5E4FFB2HBB142E2C6CAE6C243HC1414F8A0ACBCA71D79716D71B78B888074F7D3D8A024FB676F7F671B3F32H33228444C4C568F9B4F5637F3H62E24FCF8F34B04F2H50D050372HF5B5B4563H0E8E4FEB2HAB472E5C3H1C712H3130B14F2HBABB7E6EC7873BB84F2H682H28712H6DEEED222666DB594F632HA323312H748A0B4FE96901964FD2925092243HBF3F4F40C00100712565E4251B3E7EC0414F2H9B9A1B4F8C3HCC713HA1214F6AEA2B2A71F72H37B7312HD825A74F5D1DB3224F169BDA4C7F139311934F24A4DE5B4F5919A1264F823HC2712HAFAE2F4F30B0B1B022153H958FEEF3093A8E2HCB8B8A562H7C82034F512H9111315A1A5ADA4F2HE72HA771880875F74F2H8D8F496E86C667F94F23173H00013H00083H00013H00093H00093H0013ECF4550A3H000A3H00549403350B3H000B3H00A0443F5E0C3H000C3H00CB6ED72E0D3H000D3H00FA250D2C0E3H000E3H00E43673370F3H000F3H001308815B103H00103H002142090D113H00113H00FB3F455F123H00123H002147464D133H00183H00013H00193H001A3H0027012H001B3H001C3H00013H001D3H001E3H0027012H001F3H00203H00013H00213H00223H002C012H00233H00243H00013H00253H00263H002C012H00273H00283H00013H00293H002D3H002C012H002E3H002F3H00013H00303H00313H002C012H00A617D7EE6600107F0A02001176DD103H0051FE7BC8E55D58AAA4E320EED60E6E3B988HFFDD163H00A14ECB18356CC3F21EBFCD13760BA2B10659CCB3C53BDD113H002FBC1946434B363C08FDE644A98CBDA5B4DD0A3H000C69969360B8D279E67CDD0F3H003EBB08251286E28DC854BDFF3282C2DD0C3H00E18E0B5875E9B61F2D117F7ADD0F3H009D0A475431E163C007DFDAE31EDB3ADD0F3H0050ED5A97A492AD0EC1FF49365A5156DD093H00D3A03DAAE70C5412A8DD0B3H004865520F9C4FA0B66B89FDC888995505005040F72ED66H00E6F97B5FC70A0200912H0307834F408043C04FD151D2514F86C687860E6FAF2H6F712HDCDFDC225DDD652C54C242F9B7549BD0C90917B8D184FA2E292EE2EA54FEDBD2384407443DDC4754E50AFF443580377A11BAB5FF2E19730A6E252E304DEDC54F2H818081713HF6764F9F5F2H9F718C4CCDCC224D3H0D8F322AD46C8A4B0B4B4A56A8E82HA8804HD98FEEE63B488637F7F6B76E2H84C6C4713HE5654F2AAA2H6A712H23A26346E0A02H2022F13H318FE64BE4AC198F2H4FCE90FC2H7CBC243HBD3D4FE2622HA2713B7BBB7B24D8985A984649098B8971DE04A82D85A72H6766103HB4344F559515932E2H9A2HDA062H93139337B3553H00013H00083H00013H00093H00093H005243B1570A3H000A3H00E737FB460B3H000B3H00CFB451470C3H000C3H00A794B0500D3H000D3H000E13671D0E3H000E3H00E52A0E010F3H000F3H008D7C1402103H00103H00013H00113H00113H006D3H00123H00133H00013H00143H00163H006D3H00173H00193H00013H001A3H001C3H006D3H001D3H00203H00013H00213H00213H00583H00223H00233H00013H00243H00263H00583H00273H002D3H00013H002E3H002F3H00553H00303H00313H00013H00323H00323H00563H00333H003A3H00013H003B3H003B3H006A3H003C3H00443H00013H00453H00463H00693H00473H004A3H00013H004B3H004E3H006C3H004F3H00513H00543H00523H00523H00013H00533H00543H00593H00553H00563H00013H00573H00593H00593H005A3H005A3H00013H005B3H005C3H00783H005D3H005D3H00723H005E3H005F3H00013H00603H00613H00733H00623H00633H00013H00643H00653H00733H00663H00673H00783H00683H00693H00013H006A3H006C3H00783H006D3H00703H00013H00713H00733H00723H00743H00753H00013H00763H00773H00723H00783H00793H00013H007A3H007F3H00723H00803H00813H00013H00823H00833H00723H00843H00853H00013H00863H00863H00783H00873H00883H00013H00893H008C3H00783H008D3H008E3H00013H008F3H008F3H00783H00903H00913H00013H00923H00923H00783H00933H00953H00013H00963H00993H005E3H009A3H009B3H00013H009C3H009E3H005E3H009F3H00A03H00013H00A13H00A23H005E3H00A33H00A43H00013H00A53H00A53H005E3H00A63H00A73H00013H00A83H00A83H005E3H00A93H00AA3H00013H00AB3H00AB3H005E3H00AC3H00AC3H005F3H00AD3H00AE3H00013H00AF3H00AF3H005F3H00B03H00B13H00013H00B23H00B33H005F3H00B43H00B63H00643H00B73H00B83H00013H00B93H00BA3H00643H00BB3H00BC3H00013H00BD3H00BE3H00643H00BF3H00C03H00013H00C13H00C23H00643H00C33H00C43H00013H00C53H00C63H00643H004893CDD9140005860A020009FDDD113H00378C896E7BEB56F4208D765C01CCBDFDCCDD0B3H001C99FE8B801DC6C8799BE3DD093H0093C8A56A57C0485AFDDD0F3H00102D325FF4C937F65D3380144F5DF7DD0A3H00ABA03DC26F8B7E3F4EC0DD0A3H00C58A77CCC9FC864D9240DD093H007F145176C36CACE2C8988HFFDD163H005CD93ECBC0181B06A633C56F4E5FEA85EE85949F0DAFDD0E3H00729F3471961B7EEC967B749B7EB1DD0F3H00E07D02AFC416C91275E3E5F2C67512DD0F3H00FB708D92BF5B392E7125305530D130DD093H007E0B009D22CECC09FA33DD0F3H00134825EAD7D1D882AC71AA1DC4E371DD0A3H00D623D8357A1195999D0CDD0C3H0020BD42EF047A3AE974C079F3994CF551150700DA9EDD0D055H00016C0052745C0B0200C12H1003904F11D103914FF676E4764FCF0F2HCF0EEC2CEDEC71DD1DD9DD2272F24B0054BBFB81CE5488A4ADF005A9133503086EE6E19B5D675D4BE833A45127074F35AB8221556AB6AEB62H53135CD34F4000C100243HC1414F26A6676671FFBF3CFF1BDC9CD85C4F2H8D8C0D4FA2E2E6E2713HEB6B4FB838F9F871D92H1999312H9E63E14F175703974FD494555422E5A5E5654FDA1A2H9A7183437DFC4FB070F0F1683H71F14F962HD6572E6F3H2F8F2HCCC84C4F3DBD37BD4F52D2AF2D4F1B5B1C9B4F2HE815974F2H094849713H0E8E4F0787464771C4044644222HD59594560ACAF5754FF3B3B7B371E0201F9F4F612HA121313H46C64F1F5FDF842E2HFCFF3E6EEDAD11924F2HC242C2370B4B4F4B713HD8584FB939F8F9713E2HFE7E313H77F74F7434B4892E2H0501C76E7AFA7BFA4F2HA3E2E371D0102FAF4F2H51D2D122363HB68FCFCE7B8C4B2HECACAD562H9D61E24F72B22H32713H7BFB4F8808C9C8712969A8A922AE6EEEEF68276A2BBD7F2H24DE5B4FF535048A4F4HEA8F1393E86C4FC00035BF4FC181858171662HA62631FFBF7EBF243H9C1C4F0D8D4C4D71A2E261A21BABEB58D44F2HB8B6384F5999AF264FDE5F5E5F13D757DC574F2HD4151422653HA58FDAF016C73EC30343425630F02HB080B13H318F9612AC446B6F2F2D6C6E4C0C8D8C713H3DFC4652131012229BDA2HDB8F2863AC9E23C92H8908900ECE0ECF242H0701874F2H84050471551555D54F2H8A2HCA8073F377F34F2060E0A146E1E0E3E1223H8607903H1F9F4FFC2H7C612E2DADEDAC240242C183243H0B8B4F18589998712H39FBB8463E7F2H3E71B7F2253E85F4F5F4F51005C5FA7A4FBA7A2H3A063HA3234F1090105D2E2H112H91712H7680094F0F8F8DCC6E6CEC95134F9D5D9E5C243HF2724F2HFB3A3B7148084A894629282H6971AE2E5DD14F27666766103HE4644FF5B435892E6AEA2HAA063HD3534F402H80A72E2H41A43E4F2HA62HE6803FBFBDFC6E2HDC5D5C718DCD4D0C4662636062223HEB6A90F8783879243H19994F9EDE1F1E711757D496242H5496D54665242H65713H1A9A4F03C2020371706B464485F1F0F1F0103H56D64FAFAEAF0B2ECC0C2H4C063HBD3D4F52D252132E2H1B2H9B713H68E84F4909C8C9712H4E8F8E224787C7C6563HC4444F951595F42E0ACA2H8A80B33H338F204C2HCF73216163226E0646C7C6713H1FDE467C3D3E3C22AD2HED6C903H42C24F0B2HCBE92E9858985924B979BA78243HFE7E4F2H37F6F771743476B54685842HC5713HFA7A4F23A2626371D05150511311505150103H36B62H4F0E0F4C2EEC6C2H2C061DDDCA624F56513H00013H00083H00013H00093H00093H00A4D2F9780A3H000A3H004C3561360B3H000B3H0099FE62750C3H000C3H00DFE4185A0D3H000D3H00AC56F13B0E3H000E3H00098814550F3H000F3H00B8E7E54B103H00103H0076FCC606113H00113H0038AAE039123H00183H00013H00193H001C3H00F23H001D3H001D3H00013H001E3H00223H00F33H00233H00233H00013H00243H00263H00DC3H00273H002A3H00013H002B3H002D3H00DC3H002E3H002E3H00013H002F3H002F3H00E43H00303H00313H00013H00323H00343H00EA3H00353H00363H00013H00373H00383H00EA3H00393H003A3H00E33H003B3H003C3H00013H003D3H003E3H00E33H003F3H00403H00EA3H00413H00433H00013H00443H00483H00E33H00493H004A3H00013H004B3H004E3H00E33H004F3H00533H00EA3H00543H00553H00013H00563H00583H00EA3H00593H005A3H00013H005B3H005B3H00EA3H005C3H005C3H00E33H005D3H005D3H00E43H005E3H005F3H00013H00603H00623H00E43H00633H00673H00013H00683H006A3H00D83H006B3H006D3H00F93H006E3H006F3H00013H00703H00713H00F93H00723H00733H00FA3H00743H00763H00013H00773H007B4H00012H007C3H007D3H00FA3H007E3H00803H00F93H00813H00814H00012H00823H00833H00013H00843H00874H00012H00883H00893H00013H008A3H008A4H00012H008B3H008C3H00013H008D3H008D4H00012H008E3H008F3H00F93H00903H00913H00013H00923H00933H00FA3H00943H00973H00F93H00983H00993H00013H009A3H009A3H00F93H009B3H009C3H00013H009D3H009E3H00FA3H009F3H00A63H00013H00A73H00A73H00D93H00A83H00A83H00013H00A93H00A93H00DA3H00AA3H00AF3H00013H00B03H00B03H00EF3H00B13H00B13H00013H00B23H00B23H00F03H00B33H00B43H00013H00B53H00B73H00DD3H00B83H00BA3H00013H00BB3H00BB3H00DD3H00BC3H00BD3H00013H00BE3H00C03H00DD3H00C13H00C13H00013H00922E8C88170014860A0200F9D5DD0E3H004C89DE8BD0A6294905FEEB166DBCDD093H002A775C19EE9048AE5CDD0F3H003FE461F6E3DF0DCCFB7DCA4E11EB9D988HFFDD0C3H0042CFF4F1069E6ADD743C894FDD093H000E3B009D5226E4D1E2DD163H000388E55A277F7A0D2FFCD4049798AB5EF73AA5C444C833DD0F3H00592E5B20BDD2E5CED1CFD1C60AF18EDD0F3H00ACE93EEB3039B0DA0CF9E265745B49DD113H00D7BC794E7BA89FD3F9CEEF23D86FA45A45DD073H00CC095E0B500DD0DD0B3H002F545166D32DF50E2E8568DD0A3H006E9B60FDB2F4CED462C1DD093H00E845BA87EC21DBA31299DD0B3H008DC24F747150554D6EEE30DD0A3H00FCB98EBB8044BEDDBA78746DDC610700C442F52C505H0001C4ABFC60570B0200F9B2F2AB324F2H332AB34F985880184FF1312HF10E8E4E8F8E71FF3FFBFF2214542D6454DD1D67A954EADD0BFA548B0682F11D10E120405A09421645750665D6FB5A578D9D31270C3497595535734B721E628C4A58552HE3F6634F48880B08713H21A14F3EBE7F7E712F6F2HAF22043H848F8D1C1F4E04DA1A9A9B68BB7B44C44F003H408F397919B94FB6F6F7F671472H8707317CFCFE3C24A56564A51B925290124F2H9387134F78F878F84F113H518F2H6E70EE4F5F1F5EDF4FB474F7F4713H3DBD4FCA4A8B8A71EBAB2H6B22F030B0B16869E994164FE6A6C4664FB7774FC84F6CEC2HAC713HD5554F2H4283827183C3834246E868EA684F41014380243H5EDE4F2HCF0E0F71A424A565246DAD68ED4F7A7B7A7B109B5B2H1B063H20A04F192H993C2E2H56D5D6712H6760E74F5C9D1D1C22054506854FF2322H72713HF3734FD8985958712H31F1B0464ECF4F4E223H3FBE902H5496D5241DDDDE9C243H6AEA4F4B0BCACB711090D29146C9C8CDC971C6DDF0F2851757ED684F4C2H0C8D9035B5CD4A4FA262A06346A3635CDC4F88C9CCC8713HE1614F7EFF3F3E71AFAAFD668504454445100D8D2HCD063H5ADA4FBB2H7B402E0080F17F4F2H392HF92236F6B6B7563HC7474F7CFC7CBF2EE5252H6580D25291D36E5393A12C4F2H782H3880513H118FAEEF380A645F1FDC9E6E2HB442CB4FBD44478F134A0A5ACA4F2B6B26AB4F2HF030714629A82829223H26A7903H77F74FEC2H6CC12E2H15D79424428240C24F83432H0380A8E8AF284F2H012H41805E1EDD9F6E2HCFC92H4FE4A4E425466DAC2C2D22FA2HBA3B901B5B19DA242HE0E1604F99192H59712H9668E94FA7676426245CDC9EDD462HC5C6454FF272F333243HB3334F2HD8191871B171B370464E0F0A0E713F64C94B85D4959495103H5DDD4F6A2B2A952E4BCB2H8B063H50D04F492H89212E864661F94FD7D6D3D7714C8C4CCC4F75B52HF5712H22D45D4FE363A0E26E884871F74FA1BA979585FEFFFEFF10AF6F2H2F062H840704713H8D0D4F9ADA1B1A712HFB2H3B22003HC08F3937759361F636767756870773F84F2HBC3CBC372565C45A4F2H521612713H13934FB838F9F871513HD1226E3HEE8FDF2HAE32432H34747556FDBDBCBD714A2H8A0A31AB2B2A2H6E30F0CC2H4F2HA9EDE971E626646622B73H378F6CD9F703582H155554564202030271832H43C33128A8ABED6E0141D67E4FDE1E1FDE1B8F4F55F04FE424E5644FADEDECED713HFA7A4FDB5B9A9B71E02H20A0313H19994F162H56BF2EA72725E7242H9C61E34F85C56DFA4F2HF2058D4FB23A3H00013H00083H00013H00093H00093H001DB05D430A3H000A3H00DB3D95530B3H000B3H00508EE2020C3H000C3H001F0E9F3B0D3H000D3H00EFC304270E3H00143H00013H00153H00153H008C012H00163H00173H00013H00183H00183H008D012H00193H00213H00013H00223H00223H0090012H00233H00243H00013H00253H00253H0090012H00263H00273H00013H00283H002A3H0090012H002B3H002B3H00013H002C3H002C3H0083012H002D3H002E3H00013H002F3H002F3H0083012H00303H00313H00013H00323H00343H0083012H00353H003C3H00013H003D3H003E3H0095012H003F3H00403H00013H00413H00413H0095012H00423H00433H00013H00443H00443H0095012H00453H00463H00013H00473H00473H0095012H00483H00493H00013H004A3H004C3H0095012H004D3H004E3H00013H004F3H00513H0095012H00523H00533H00013H00543H00553H0095012H00563H00573H00013H00583H00583H007F012H00593H00593H00013H005A3H005A3H0080012H005B3H00653H00013H00663H00663H008F012H00673H00683H00013H00693H006B3H008F012H006C3H006E3H007E012H006F3H006F3H0088012H00703H00713H00013H00723H00743H0088012H00753H00763H00013H00773H00783H0088012H00793H007A3H00013H007B3H00813H0088012H00823H00853H00013H00863H00873H0088012H00883H00893H00013H008A3H008A3H0082012H008B3H008C3H00013H008D3H008F3H0082012H007C3ADD9F3B0013860A0200DD38DD0F3H00961BEC5972A2C2052CF0651F5696D2DD0F3H007D864B5C096AE151C9F21B46B1D828988H00DD0A3H00D02D767BCCFFE3E6038BDD103H00EE1304114A5A59ED11542H2903D97F4CDD0B3H00DE4374C13A8F82074EB429DD0B3H001932C76865FFDFC404CF0ADD0E3H00203D460B1C8FF2949E2F388B1E5533DD113H001A0F90ED36EE657D23F8BDCDFAF9BE141FDD0C3H003F009D266BE854E31ACA8711DD093H00033481FA6F6917DF32988HFFDD163H006CD9F28728453467892E8AD6B1A2C53421985B6692F2DD0B3H007E6314E1DAD50A0C110B1FDD093H0039D2E70885BCB8DE4899DD0F3H00CAFFC05DE6745BC067B94FB86CC710B0552971060044ACD2487D5H0001B834DA7B250B020093733369F34F2H7268F24F8D4D940D4F2HB4B5B40E9757969771A666A2A62211912961542HC873BD547BD669EC831A96D1B466D50368BB109CF02H41029F20A12F0B2H4E59CE4F19992H59713H30B04FC34382837142822HC2229D3H1D8FC41618DB452HE7A7A656B676F4F671A1615EDE4FD82H1898313H8B0B4FAA2HEA6D2EA5E521676E6CAC7CEC4F2F6F3FAF4F9EDE8E1E4FA969EBE9713H00804FD353929371522H9212313HAD2D4F142H54FE2E2HF776B7243H46C64F71F13031712H68AA681B9B5B67E44F3A7A38BA4F35F57775717C2HBC3C313H3FBF4FAEEE6E322E2H39B879243HD0504FE363A2A3712H62A0621B3DBD37BD4F24A42AA44F2H872HC780D63H968F4190B4B34478B879BE6EAB6B54D44F0A4A898A713H05854F8CCC0D0C71CF4F0F4E463E7F3D3E2209082H098F20E01B07743H33B2903HB2324F4D2HCDCF2E74B4B6F5243HD7574F6626E7E671D1511050243H08884F3B7BBABB715A9A9EDB4695556AEA4FDC5DDFDC713H5FDF4F8E4F8F8E719982AFAD8570B08F0F4FC3C2C3C2103H02824F5D5CDD0E2E44842HC406E72716984F76F62H36716121E0E1222H98D8D9568B4BC9CB716A2HAA2A313H25A54FECAC2CD12E2F6FADED6E2HDED45E4F29E920A94F2H40C040379313D1D3715292AD2D4F2H6D2HED22143H948FB7CFBCBF52C6068687683H71F14FE82HA8C12E9B3HDB8F2H7A87054FB53559CA4FBC33F1633A2H7F97004F2EAED7514FB93942C64F2H502H1080E323E0634F22A2E3A324FD3D397C4664E56764713H07874FD617D7D671011A37358578797879103HEB6B4FCACBCA552EC5052H45064C0CB0334F8FCE8C8F227EBE81014F3HC9489060A0A2E124F333088C4FB272B3746E8DCD0E0D713H34B44F97D7161771A6266627462H916CEE4F08884A48712H7B2HFB225A9A1A1B683HD5554F5C2H1CE52E1F2625ED132HCE3AB14FD9593FA64F470D3H00013H00083H00013H00093H00093H003AE98E3F0A3H000A3H00E11D29180B3H000B3H002FF451240C3H000C3H00B7209F320D3H000D3H008A83D7410E3H000E3H007D56E8180F3H000F3H0067E37914103H00123H00013H00133H00153H0056022H00163H00173H00013H00183H00183H0056022H00193H001D3H00013H00CAF1459214008D7A0A020065B8DD103H004142A7801D61044A02B1435D6AF46EFBDD0E3H0031F217B00D9669A5A83C93E7350EDD0E3H004B3421A287F44936DFD69A13A895DD0C3H0075C6BB6411661AC7D71364F5DD0D3H00092A2F2865D9B230DE67F8843BDD093H00CEE32CF9DA574D2985BCB10D7404003C5A8579B65H00010FF59A2AB30A020087B0F0B3304F2HF7F4774F7ABA78FA4F2HA9A8A90EB474B5B4712H8B898B22DE1E66AC541D9D266A54380E1308851FD021131E02D52HCD2411AE16F9657CBFA94502B3E27DE84566C5A7CD752H054445713H40C04F8707C6C771CA2H4A8A24B9F939F92404C48444243H5BDB4FAE2EEFEE712D6DAC6D243H08884FEF6FAEAF715253841383E13H210D2H8C0C8C3741383H00013H00083H00013H00093H00093H00CA450E200A3H000A3H000451577A0B3H000B3H004B3818190C3H000C3H0085269D6D0D3H000D3H00DBA61F480E3H000E3H00F7AAC50B0F3H000F3H004519A36E103H00103H0035E38600113H00183H00013H00193H00193H003E012H001A3H001C3H00013H001D3H001D3H003F012H001E3H00263H00013H00273H00293H0039012H002A3H002B3H00013H002C3H002C3H0039012H002D3H002E3H00013H002F3H002F3H0039012H00303H00313H00013H00323H00353H0039012H00363H00373H00013H00383H00393H0039012H003A3H003D3H00013H003E3H003F3H0031012H00403H00453H00013H00463H00473H0030012H00483H004C3H00013H004D3H00503H0047012H00513H00523H00013H00533H00533H0047012H00543H00553H00013H00563H00573H0047012H00583H00593H00013H005A3H005C3H0047012H005D3H005E3H00013H005F3H005F3H0047012H00603H00603H0041012H00613H00623H00013H00633H00653H0041012H00663H006A3H00013H006B3H006B3H0041012H006C3H006E3H00013H006F3H00703H0034012H00713H00723H00013H00733H00753H0034012H00763H00763H00013H00773H00793H002F012H007A3H007C3H00013H007D3H007D3H0042012H007E3H007F3H00013H00803H00833H0042012H00843H00873H0033012H00883H008C3H00013H008D3H008D3H0033012H008E3H008E3H00013H000C813D4621002F860A02001D08988H00DD093H009B2C99F207CC7C92CDDD113H0064F1EA1F20181FFF3DA6874F3C4F14B671DD093H00A1DA4F90ED7212E406DD0F3H00D26748C5EEC027DF733875708B828E988HFFDD103H00A9C297B875AD503ED0DB608A124EC63FDD103H0059B2C72825BADCF78A6770715EAC4B88DD0C3H0009A2F798D5FE6AE9F8B451CB9933DD0F3H00AD36BBCCB916A1CEB1FB25CE5225FADD0E3H00C05D26EB3C01743EC4198671446BDD0B3H007A6F300D168FD4CADB2159DD163H00E58EB3E4717FB6F9CF0478705F08077AC7224960ACE8DD063H00CF106DF67BB6DD0A3H007952E7C845A74F56DFA3DD0F3H00FF801DE6AB49D3D2456B44C0CFAD8324817B3606006BB82A2H125H00010003E373240B0200272HC3DE434F96568A164F55D549D54F2H3031300E17D7161771BA7ABEBA2289C930F854B4F48EC0546B334E0A589EB210C70BBDEE27F707F88753C61E3F2A8E056A02EF35D96AF1F7F9C87DBCCE88046B2H938A134F2HA6BB264FA5E5BD254F2HC0D4404F67E7E6E722CA8ACA4A4F99D9DDD9714484BA3B4F2HBBFBFA56EEAEACAE713HCD4D4FC8488988718F2H4FCF313H52D24FC12H81B82E2HCC4E0B6E63239F1C4F2HF62HB680B53HF58F10E378EC26F77776356E5A1A2HDA71A9696D2846D455D7D4223H4BCA903HBE3E4F9D1D9D6D2E2H985819243H9F1F4FE2A26362712H5190D0243H1C9C4FB3F3323371460684C7464504464571E0A2F6E28387868786103HEA6A4F797879842EE4242H64069B5B6EE44F8E4E0C496E6DAD92124FA828BA284F2F6F6D6F71322HF272312161DF5E4FECACA8AC713H03834F9616D7D6711595969522F03H708F578D95C5542HBAFAFB562HC934B64F2HB42HF4802B3H6B8F1E52206708FD7D7C3F6EB8F82H3871BF7F7B3E4682038182223HF170902HBC7C3D243HD3534F6626E7E6712H65A4E4243H00804FA7E72627718ACA480B4619581A19713H84044F3BFA3A3B71AEEF6EEE130D0C0D0C1048882HC8063H0F8F4F122H92732EC181CA414F8C4CCCCD683HA3234FB6F676492EB5F8B92F7F2H9094104F2HF7F6774F2H5A2H1A713H69E94F54D41514718B3H0B222HFE03814F5D1D5EDD4F18585A58713HDF5F4FE262A3A271512H9111311C9C9F5C243H73F34F46C6070671850547851B2H20C75F4FC7072DB84F2H2AAA2A37F97435A37FA4E443DB4FDB9B2AA44F4E0E0C0E713HAD2D4FA828E9E871EF2H2FAF313HB2324F212H61692EAC2C2FEC2443C381431B169614964FD51525AA4FF030B0B168175A1B8D7F3ABAC1454F2H0908894F2H742H34713HAB2B4F5EDE1F1E717D3HFD2278F885074F7F3F88004FC24237BD4FEA603H00013H00083H00013H00093H00094H001B68040A3H000A3H00466A8A430B3H000B3H003548F6140C3H000C3H00CA59451B0D3H000D3H00198AC0280E3H000E3H0092F394590F3H000F3H003FB1C447103H00163H00013H00173H00173H0033022H00183H00193H00013H001A3H001B3H0033022H001C3H001C3H00013H001D3H001D3H0034022H001E3H001F3H00013H00203H00203H0034022H00213H00223H00013H00233H00253H0034022H00263H002C3H00013H002D3H00303H0018022H00313H00323H002B022H00333H00343H00013H00353H00373H002B022H00383H003A3H001F022H003B3H003C3H00013H003D3H003E3H001F022H003F3H00403H00013H00413H00433H001F022H00443H00443H002B022H00453H00463H0025022H00473H00473H002B022H00483H00493H00013H004A3H004C3H002B022H004D3H00503H0025022H00513H00523H00013H00533H00533H0025022H00543H00553H00013H00563H00573H0025022H00583H00583H001F022H00593H005A3H00013H005B3H005B3H001F022H005C3H005D3H00013H005E3H005F3H001F022H00603H00613H00013H00623H00633H001F022H00643H00653H00013H00663H00673H001F022H00683H006B3H0025022H006C3H006D3H00013H006E3H006E3H0025022H006F3H00703H00013H00713H00733H0025022H00743H00783H00013H00793H00793H002B022H007A3H007B3H00013H007C3H007C3H002B022H007D3H007E3H00013H007F3H00823H002B022H00833H00833H00013H00843H00843H0031022H00853H008D3H00013H008E3H008E3H0030022H008F3H00933H00013H00943H00983H0019022H00993H009B3H0014022H009C3H009C3H00013H009D3H009D3H0016022H009E3H00A23H00013H00A33H00A33H0015022H00A43H00AE3H00013H00AF3H00B03H003A022H00B13H00B23H00013H00B33H00B43H003A022H00B53H00B63H00013H00B73H00BF3H003A022H00C03H00C13H0040022H00C23H00C33H00013H00C43H00C43H0040022H00C53H00C63H00013H00C73H00C73H0040022H00C83H00C93H00013H00CA3H00CA3H0040022H00CB3H00CC3H00013H00CD3H00CE3H0040022H00CF3H00D03H00013H00D13H00D43H0040022H00D53H00D63H00013H00D73H00D83H0040022H00D93H00DA3H00013H00DB3H00DD3H0046022H00DE3H00DF3H00013H00E03H00E03H0046022H00E13H00E23H00013H00E33H00E53H0046022H00E63H00E73H00013H00E83H00EB3H0046022H00F28938994100A1870A02001999DD0A3H003A478C49BE37EBBA278BDD163H0094114673D8CA2D880421EB896C6DBCBBAC176A790F9DDD093H005A67AC69DE0A2A65AF988HFFDD0C3H00AFB4316693C9531695C31014DD133H00DB009DF23FECF2B2D4303415C11C86E311EA7099DD0A3H0002CFD45186E1F5798D5CDD0B3H00DC190EFB2068A11D5AA6BCDD0F3H004328859AA7DDCF42FD6F98F80FE9DFDD063H00A6D33815AAE9DD0F3H00FC392E1B40E41F7757BC55D03F7696DD093H00C70CC93EAB10B032F5DD113H001491C6F3583C6FC721D26F1F80BB74AE0D33DD0E3H0021D68368C54944E210D97EDDA083DD093H002F34B1E6134BC521A1DD0F3H003C796E5B8003CEA776CEAA7F856095DD103H00074C097EEBA0C79F8796F7031583E18EBA1CD51B0800EACCC337A45H0001261CA003810B02007FB13194314FD494F1544F2H2306A34FCE0E2HCE0EC505C4C5712HB8BDB8222H172E67542H1228665419A84CFE5B1CFA6B7B790B6FB73B6B16DFA4D0756D7002A832C0D858024F7F31A5351EDA1AFB5A4FC1818281713HE4644F33B3727371DE9E2H5E22153H958F088473290427E76766683HA2224F292H69D32E2C3H6C8F1B9B199B4FE6A6A7A671BD2H7DFD313HD0504FCF2H8F342E2AEAA86A243H51D14FB434F5F471C34300C31BEEAEF96E4F652545E54F3HD8584F2HB737B73772323132713H39B94F3CBC7D7C71EBAB2H6B2236F6C9494F8D4DCDCC68602D6CFA7FDF5F22A04FFA3AED7A4F2160632346044415844F93131713717EFE7EFE4F35F4743724E8A9ACEA46078704874F428280C34609490E894F8C8D8C8D103HBB3B4FC6C746272E1DDD2H9D0670B02HF080AF3H2F8F0A33DAB15171B130706ED41410147163E361E34F2H0EF6714F0504010571F8B802874FD7565557713H52D24F5918D8D9711CDE8A9F838B0A0B0A1056965AD64FADEDA96C242H0006804FBF3FBD7E465A5B2H1A2281C02HC18F24E346201F732H33B2903H9E1E4F152HD5A32EC848CB09242HA75AD84FE2A32HE222A9A82HA98FACBA052F553HDB5A903HE6664FBD2H3D182E90505311242H4F8FCE243HAA2A4F1151909171B47470354603020103713H2EAE4FA564A4A57198DD0A1185F7B703884FB232B6734639787B79713CBDBCBD13EBAAABAA103H76F64F4D0C0D2H2EE0602H20063H1F9F4FFA2H3A322EA1212H6180840485C56E2H53A72C4F2HFE2HBE80353H758FA887C0F17D2H0786C66E0242EC7D4FC9082H49224CCD2HCC8FBB0E54371806878607903HDD5D4F3031B01A2E6F2E2C6D24CA0A26B54F31702H31062H54A42B4F2HA340DC4F0E2HCE4E313H45C54F782H38232ED717D6126E92526DED4F1999F8664F9C3HDC71CB8B494B22163H968F6DFA00E8752H00404156FFBFBEBF715ADAA6254F41010001713H64E44FB333F2F3719E2H5EDE315595D7152448C88B481BE7A704984F22A2D45D4FA950539B13EC6C17934F9B5B9B1B4F2666C4594F3D2HFD7D3110D013D56E0FCFEE704FAA3HEA71D1112EAE4FF4B47774222H034342563H6EEE4FA52HE5432E18585958712H37CA484F2HF22HB280F93HB98FBCE00435242HAB2A6A6E36B6B2B6713H4DCD4FE0A0616071DF1F1D5E467A3B2H7A22A1A02HA18F4430D2787A3H1392907EBEBDFF243HB5354FE8A86968712H07C78624C20206434689888B89718CC91E05853B3A3B3A10C6062H46069D5D2H1D80F030B1F16E6FAFABAF71CA4AC80B4631302H7122D4952H948F23CDFF84154E2H0E8F903H85054FB82H78E82E179714D6243HD2524F2H99585971DC9CD81D243H8B0B4F2H16D7D6712DAD29EC46C0818280713HFF7F4FDA5B9B9A71C140414013E4A5A4A510F3732H3306DE5E2H1E80953H558F0880D2DC10E767E6A66E62636662713H29A94F2CED2D2C71DB9A99D946E6272H6622BD3C3DBC4H90102H4F4ECF112E2A6B6928243H11914FB475B5B4718342C28124AEEFEAAC46A5242725713H98184FF7B676777172B0E4F18379F8F9F8103C7D2H3C062BABCE544FE1193H00013H00083H00013H00093H00093H00DB2AF6780A3H000A3H00C92H2E030B3H000B3H006756BB500C3H000C3H00AF2C53300D3H000D3H00EEDAE70D0E3H000E3H0004E16A100F3H000F3H00A2959641103H00103H00896ECF1E113H00113H00D1104E63123H00153H00013H00163H00163H0076012H00173H00183H00013H00193H001B3H0076012H001C3H001D3H007B012H001E3H001F3H00013H00203H00223H007B012H00233H00243H00013H00253H00263H007B012H00273H00283H00013H00293H002A3H007B012H002B3H002C3H00013H002D3H002D3H007B012H002E3H002F3H00013H00303H00303H007B012H009646B4EE05009B7F0A020081CDDD093H0097B4516E0B861A84EADD163H009C3956F310522DB89C599B69F4055C6BE43F9A398725988HFFDD113H009A3754F10E6B928C4CBD3A14056CD935F0DD153H000724C1DE7B0B712F4FCB0E721E0980C5E21263D541DD0F3H00680522BFDCD14461680C307173F28FDD0C3H001B38D5F28F4780B54767D140DD103H007794314EEB01E056D4E7C80A968246F7DD0B3H004764011EBB67ACDED72159DD0A3H0006A3C05D7A273B6AFF3BDD0F3H00A84562FF1C1FA5A40B8DE2D621EBC52CDDB02E0500AC9B35202D6H00FD9E2169C60A02008FF636F5764F9D1D9E1D4F004003804F8F4F2H8F0E7ABA2H7A712HB1B2B1222HE45D94542H83B9F4543EAD82040EC503C38C1F489708B621378063E03642403D51101979F9A27A6CF13E82616BE52EA711464C4786466D2D6F6D7150901110229F3HDF8F8ABCAAE78581C18180563HF4744F3HD3662E4E0E2H4E802H5514D46ED83H9871C70745874692122H5222293HE98F3C66C11B4EBB2H7BFA90562HD616247DFDFC3D243H20A04F6FEF2H2F712HDA5B9A4691515351713H04844F2HE32H2371DEDF2HDE13E52H2524103HA8284F172HD7042E2HA22HE2063HB9394F4C0C8CB72E2H4BCB4B379C5A3H00013H00083H00013H00093H00093H00F5DCF82A0A3H000A3H0008118D760B3H000B3H00E1E9903D0C3H000C3H003A7F66160D3H000D3H006DF0B07E0E3H000E3H00B9F69C5F0F3H000F3H007C7F5111103H00143H00013H00153H00183H00FA012H00193H001C3H00013H001D3H001E3H00FB012H001F3H00203H00013H00213H00233H00FB012H00243H00253H00013H00263H00263H00F8012H00273H00303H00013H00313H00323H00F7012H00333H00383H00013H00393H00393H00DC012H003A3H003A3H00013H003B3H003B3H00DD012H003C3H00403H00013H00413H00413H00E0012H00423H00433H00013H00443H00463H00E0012H00473H00493H00013H004A3H004C3H00E0012H004D3H004F3H00DB012H00503H00523H00E6012H00533H00543H00013H00553H00553H00E6012H00563H00573H00013H00583H005A3H00E6012H005B3H005C3H00013H005D3H00633H00EC012H00643H00653H00F2012H00663H00673H00013H00683H006C3H00F2012H006D3H006D3H00EC012H006E3H006F3H00013H00703H00723H00EC012H00733H00743H00013H00753H00753H00EC012H00763H00773H00013H00783H00793H00EC012H007A3H007A3H00E6012H007B3H007C3H00013H007D3H007E3H00E6012H007F3H00803H00F2012H00813H00813H00E6012H00823H00833H00013H00843H00873H00E6012H00883H00883H00F2012H00893H008A3H00013H008B3H008B3H00F2012H008C3H008D3H00EC012H008E3H00923H00013H00933H00943H00E6012H00953H00953H00EC012H00963H00973H00013H00983H00993H00F2012H009A3H009C3H00EC012H009D3H009E3H00F2012H009F3H00A53H00013H00A63H00A73H0001022H00A83H00A93H00013H00AA3H00AA3H0001022H00AB3H00AC3H00013H00AD3H00B33H0001022H00B43H00B53H00013H00B63H00B63H0001022H00B73H00B83H00013H00B93H00BA3H0001022H00BB3H00BC3H00013H00BD3H00BE3H0007022H00BF3H00C03H00013H00C13H00CB3H0007022H00CC3H00CD3H00013H00CE3H00D13H000D022H00D23H00D33H00013H00D43H00D43H000D022H00D53H00D63H00013H00D73H00DA3H000D022H00DB3H00DC3H00013H00DD3H00DE3H000D022H00DF3H00E13H00013H00E23H00E23H00DF012H00E33H00E43H00013H00E53H00E73H00DF012H0071012HAF5800B0870A02006117DD0B3H005B18B5328FD2D79B40ECA2DD143H009AF734514E0AA1C6FA43024EB84B17786835819FDD093H001EFBB855D29808D32933DD113H006320BD3A976E7179C39009D902291A206F988HFFDD0C3H00F08D0A67A4524AA96C6869B3DD0E3H000C292603C0FEC9895DE66BF67514DD093H00429FDCF9F6B0D0162CDD0A3H000744615E3BB5E17D8150DD0F3H00C9C6A360FD54ECCBF2065BF118303CDD103H007C99967330FC274B8762074FB56F61BADD063H004C69664300D5DD163H001A77B4D1CE26293498B5577D78D118B7E0E346ADBB71DD0A3H0038D552AFEC4DA50C5D71DD0F3H00BA1754716EAA2DF5F90A57A259284499DD093H000D8AE72441B63ED097DD0F3H00F24F8CA9A6E661EA65235DCAE6650A807CE35C08004726227E0E5H00016197D84E7D0B020081A626B4264FFFBFED7F4F2H9C8E1C4F0D4D0C0D0E22E22322712HEBEEEB22B83881CB542H19226F54DEBB57FB8D97B0EE9F71D4CCD7BD8225689F0266DAA8AD4A1F834E27A913B0F3541A6EF131FF714F2H561216713H2FAF4FCC4C8D8C713DFDBCBD22D2129293689BA2A169133HA8284F3HC9494F2H4ECE4E3707C74647713H04844F55D51415710A2HCA4A31F3B370B3243HA0204FE161A0A171862H46861B2H5F58DF4F7CFC62FC4F6DAD97124F42820302710B2HCB4B313H98184F392H79162EFEBEFA386E2H7789084FB474F7F4713HC5454FFA7ABBBA716323E0E322103H908F513AB391042HB6F6F7568FCF73F04F2CEC6F6C713H1D9D4F32B2737271FBBB7A7B22083H888F693F2B892A2H6E2E2F56E727A6A771A42H64E43135B535F36E2H2A02AA4F13D334934F2H8076FF4F01C1F27E4F2666A566243HBF3F4F1C9C5D5C71CD2H0DCD1BE2221F9D4F2HABAA2B4F38F87978713HD9594FDE5E9F9E71972H57D7312HD429AB4F2H2535A54FDA2320E8134383B53C4F70F0880F4F31B1F0B024D656DD564FEFEEEFEE103H4CCC4F7D7C7DE52ED2122H52063HDB5B4FE82H68172E09C92H89808E4ECE8C6EC7070507713HC4444F2H15D4D571CA8AC80B4673F377F34FA020A0E26E61A16DE14F06472H4671DFDA8D16853C7C31BC4FAD6C2E2D22C24342C3903H0B8B4F5859D8F32E3938783B247E3F3C7C2437B673354634B52HB47185458E054F2HBAB87B243HA3234F2H90515071D191D51046B6364DC94F0F0E4C4F226C2D2H2C8FDD6539B86DF22HB233903H3BBB4F8848C8F12E29E928E824EE6E12914F6726646722A4A52HA48FF50FE023493H6AEB902HD327AC4FC041404110C141C0414F2HA66627243H7FFF4F9CDC1D1C712H0DC98C46A2A32HA271EBAE7962853878CA474F99D82H99063H5EDE4F979617A72E94D478EB4F25A52HE5802H5AAE254F2H432H03802H70F0B26EF171732H713H96164F2F6FAEAF712H8C4E0D462H3DC4424F12131012713H9B1B4F28E929287149C80B4B46CE8E3CB14F87C6C7C61044C42H840695156EEA4F4AD1FCFF8533F3C44C4F2H602H2080613H218FC64135546A2H9F1F5D6E7CFCFEFC713HED6D4F02428382712H4B89CA4618591B1822F9F82HF98F7EBE67AD463H77F6903H74F44FC52H459A2EBA3A7B3B242HE32362242H90541146D1D02HD171766D4042850F0E0F0E106CAC2HEC063H9D1D4F722HF2FB2E7BBB2HFB80883H088FE9E0519B752EEE6E2C6EE7272527713H64E44F2H35F4F5716A2A68AB46D3D290932240012H008F01BAA6B80F262H66E790FF3FFE3E242H1C1EDD248DCD894C4622632H6271AB2A2B2A13B8F9F8F91099192H5906DE5E2H1E80971797D56E54555654713HA5254F1ADB1B1A71C34281C14670B1F3F02231B0B1309056571754243H6FEF4FCC0DCDCC71FDBCBFFF243HD2524F5B9A5A5B71E869ACEA4689082H09718E489C848507868786103H44C44FD554552F2E8ACB2H8A062HF32B8C4F2HA0E4E071E1211E9E4F4686C7C622DF1F9F9E683HBC3C4FED2HADC32EC28FCE587F8BCB47F44FD8580FA74F21153H00013H00083H00013H00093H00093H008FC539410A3H000A3H0052DDB8280B3H000B3H006DF90C4E0C3H000C3H00F35DDA680D3H000D3H0007BAFB1A0E3H000E3H001DB8692B0F3H000F3H003D56EC09103H00103H0040060770113H00113H001096B030123H00173H00013H00183H00183H009B012H00193H001A3H00013H001B3H001B3H009B012H001C3H001D3H00013H001E3H001F3H009B012H00203H00213H00A0012H00223H00233H00013H00243H00263H00A0012H00273H00283H00013H00293H002E3H00A0012H001B99722D5B00497F0A02006583DD093H0045D60BF4E18844428CDD0F3H002EC38CD93AC877F4BBFD2BF4B8EB0CDD0B3H00ADDE33BCC9E46185364AE4DD0F3H0054C1C227005B5D94D7B992CE9DBF3DDD113H005B84B1729769182HFEC7B81E7FFE131732DD0A3H00B4A12207607A60B3EC76DD103H00FA3F78F54679AC7AA48754D6BE1A8A7BDD163H00AAAFA8E5F6FE7D1830A5B3F198C95C1BC88332A16BE9988HFFDD0C3H0044713257F012EB5404223259DD0B3H0008C5568B74733368B8DB6E6D58E40805004F494B49876H009318CF07C40A020089B979BA394F068605864FE7A7E4674F2C6C2D2C0EE5252HE5712H6261622233730B425428A8135E5411FBF52D64BEF0197B83BF19DFCC4A2457FFE01F7DD9715632DA5C7E3B100BE15E647AE09728BF36A9C2C65A84F6B6F7F6713H97174F9C5C2H9C712H55171522123H528FE3A8D8447498D89899563H81014F3HEEA92E6F2F2H6F804HD48FAD5520AE6BCA4A884E6E7B3H3B71102H9050462HD9181922263HE68F478ECF8F534C2H8C0D90054584452402C28342243H93134F48C82H08712HF171B1461E5E2HDE715FDA8D1785842H4445102H1D2H5D062HBA3ABA37D0173H00013H00083H00013H00093H00093H001C451E630A3H000A3H00E4B01B280B3H000B3H00E10D414D0C3H000C3H00B34588270D3H000D3H00172277030E3H000F3H00013H00103H00103H00073H00113H00123H00013H00133H00153H00073H00163H00183H000C3H00193H001A3H00013H001B3H001B3H000C3H001C3H001D3H00013H001E3H001E3H000C3H001F3H00203H00013H00213H00223H000C3H00233H00243H00013H00253H00263H000C3H00273H00283H00013H00293H00293H000C3H002A3H002B3H00013H002C3H002C3H000C3H00119AC27A3F00077D0A0200D5FDDD163H00435C29BA2H5FBAF1FB547CF813883B82F332ED989008DD093H00D5D6ABE451AF91E1F1DD0F3H006E23BC091A77BA771E1A8E77A544B1DD113H007D9E136C79D08F0F9D0EC71F2C57448691DD0A3H00CE031CE97ABB6B6A3BD7DD0B3H00F4A19217C07D7A54F183EFDD0F3H000F1895966B18142BA68A5B59BCDC44988HFFDD103H00DAFFC805C6FCDB9FD7CA7BDB6D9F5D7E7750AC2006002DBA4D147D5H0001C168C86FC20A020007EB2BE96B4F3EBE3CBE4F7D3D7FFD4FD898D9D80E3FBF2H3F7162E2606222B13189C0545C1C6628549382D783570617D08955A5118A084760C46AAD1FE775A18436AAEAEBEA711943EF6A852HE4A4A5563HBB3B4F0E4ECE032E2H8D2HCD802868E8EB0D8F4F2H0F712HF233734601002H01223H6CED903H23A34FD62H560E2E7535B5F4243H30B04F2H772HF7717AFAB8FB243HA9294F2HB42H34712H0BCB8A465E1F5F5E713H1D9D4FF8792HF871DF9DC9DD8382838283103H51D14F7C7D7C812E73B32HF3063H66E64FC52H458C2E2HC040C037A9603H00013H00083H00013H00093H00093H00A4827A130A3H000A3H00BA8A6B2F0B3H000B3H0041D2915D0C3H000C3H00F3F066250D3H000D3H004C253B500E3H000E3H00CAAAA60D0F3H000F3H002F98F741103H00103H00BD45A53E113H00143H00013H00153H00153H00A8012H00163H00173H00013H00183H001A3H00A8012H001B3H001C3H00013H001D3H001D3H00A8012H001E3H00203H00013H00213H00213H00C5012H00223H00233H00013H00243H00273H00C5012H00283H002B3H00013H002C3H002C3H00A9012H002D3H002E3H00013H002F3H00333H00A9012H00343H00393H00013H003A3H003A3H00A5012H003B3H003D3H00013H003E3H003F3H00A6012H00403H00433H00013H00443H00473H00BB012H00483H00493H00013H004A3H004A3H00AF012H004B3H004C3H00013H004D3H004E3H00B5012H004F3H00513H00013H00523H00543H00AF012H00553H00563H00013H00573H00573H00AF012H00583H00593H00013H005A3H005F3H00AF012H00603H00613H00013H00623H00623H00AF012H00633H00643H00013H00653H00653H00AF012H00663H00673H00013H00683H00693H00AF012H006A3H006A3H00BB012H006B3H006C3H00013H006D3H006D3H00BB012H006E3H006F3H00013H00703H00723H00BB012H00733H00743H00013H00753H00753H00BB012H00763H00773H00013H00783H00783H00BB012H00793H007D3H00B5012H007E3H007F3H00013H00803H00823H00B5012H00833H00843H00013H00853H00853H00BB012H00863H00873H00013H00883H008B3H00BB012H008C3H008E3H00B5012H008F3H00903H00013H00913H00913H00B5012H00923H00933H00013H00943H00943H00B5012H00953H00963H00013H00973H00993H00B5012H009A3H009B3H00013H009C3H009D3H00B5012H009E3H00A23H00013H00A33H00A73H00CB012H00A83H00A93H00013H00AA3H00AD3H00CB012H00AE3H00AF3H00013H00B03H00B03H00CB012H00B13H00B23H00013H00B33H00B53H00CB012H00B63H00B73H00D1012H00B83H00B93H00013H00BA3H00BB3H00D1012H00BC3H00BD3H00013H00BE3H00C03H00D1012H00C13H00C23H00013H00C33H00C63H00D1012H00C73H00C83H00013H00C93H00CA3H00D1012H00CB3H00CD3H00A4012H00CE3H00D23H00013H00D33H00D33H00C1012H00D43H00D83H00013H00D93H00D93H00C2012H00DA3H00E03H00013H00E13H00E13H00C4012H00E23H00E33H00013H00E43H00E63H00C4012H002ED690341900A9870A020019B4DD0C3H000A975C998EE95009AC42621FDD103H0016C3A8051A9265899964551DF3B103B8DD0F3H002653B8952AA6FAC5F8E435A7B2C24ADD0F3H008136E3C825FE65C961C6FF96D1BC7CDD0F3H0094114673D8CB352E45D594755C216C33DD093H001FA4A15603AB654101DD093H00AC69DE4BF052A6FC67DD0E3H00316693F8D59211A55532D362BDA8DD0A3H003FC4C176239C929CD609DD0C3H0089FE6B102D2F9D1C2F6D86AEDD113H00F58A17DC19A1CCB29607AC82DFB6779B3A99DD0F3H009AA7ECA91E64C7D49731F38C8447ECDD0B3H0015AA37FC39E82DE5D606C8DD093H000401B66348CF71D080DD0A3H00C93EAB506D2F0F629B33988HFFDD163H00F35835CA57F87F56327379DF22FF4E755A8518CF918F164ECF0C080042C4DB3BAB5H0001834095237C0B02001B2HC7F5474F1EDE2F9E4FF171C0714F2HB0B1B00E8B4B8A8B712H727772222H15AD64542HE4DF93540F7ECF1E0246217CF61339F64991485836EF8919939B96333A5A2FBCD173DD720D0185CC94E0986B2H5779D74F6EAEEAEE22813H018F00A1CC72495B9B1B1A683H42C24F6525A5CA2E3464B92B3A9F5F961F4F561656D64F49C90809712H28D5574FE363E1634F6AAA282A713HAD2D4F9C1CDDDC71A72H67E7313HBE3E4F512H11282E1050905024ABEB6AAB1B3H12924F357528B54F84C4A8044F6FAF2D2F713H26A64F59D9181971382HF878313H73F34FBA2HFAB82EFDBD7DBD242CECD3534F7737B6771B8E0EA80E4F21A132A14FE0A0A4A0713H3BBB4FA222E3E271C545474522543HD48FBFB20608292HB6F6F75669A92B29713HC8484F43C30203718A2H4ACA31CD0D32B24F2H3C3DFC6E2H07F1784F2H5EDE5E373171CE4E4FF0B1B2F224CB0BDB4B4FB233F2B04655155DD54F6424E5AC6E2H4F4ECF4F0646C7C6713H39B94F2HD819187153135392469A1A951A4F2H5DDCDD713HCC4C4F17579697712HAE6E2F4641C04541223HC041903H5BDB4F022H82912EE5A52764243H74F44F5F1FDEDF711656D59724C9090A484668E96B687123E3DC5C4F6A715C5E85EDECEDEC103H1C9C4F2726A7A52E7EBE2HFE063H51D14F109010F82E6BAB2HEB80D23H528F35ECF8A41944C4054C6E6FAF98104FE6E7626622D9582H598FF83777D28AB33233B2903H3ABA4FFDFC7D112E6CAD2E6E24B7F743C84F4ECFCECF103H61E14F60E160842E7B3A2H7B063H22A24F858405222E2H1401944F3FBF3CFE46367631B64F296869681008880B884F83032H4380CA3H0A8F4D644EBC467CBC7D346E47C64647719E1E6EE14F2H312H718030B0C02H4F8B8A080B713HF2724F155494957164A2766E858F4F76F04F06474504462H7987064F98182H5806D35328AC4F9A5BDEDA225D1C2H1D8F0C11101343172H57D6903H6EEE4F412H81EF2E2H404281243H9B1B4F2H02C3C27165E565A424B47443CB4F5F9E1C1F713HD6564FC948888971E8EA3EAA832H63941C4F2HEA2HAA806D2DECA56E2HDC5D5C713H67E74FBEFE3F3E712H11D19046D051D4D0223HAB2A901252D093243575F6B4243H04844F2F6FAEAF7126E6E5A74699189A9971B8F978F813F3F2F3F2103H7AFA4F3D3CBDFF2E2CEC2HAC063HF7774F8E2H0E592E21E12HA180A020E1A86E7B3BBABB71A2E2A263468544C1C52214552H548FBF8D6FF208B62HF677902H696BA8243H48C84F2H438283718A0A8A4B248D0D8E4C46BC7DFFFC713H87074F9E1FDFDE71F1AA072H8530717071108B0B2H4B06F2722H3280153HD58FE4F7E152730FCF0E476E2H4691394F79F634A63A98D898184F1353CA6C4F1ADAC8654F1D5D595D71CC8C2H4C22973H178F2E9E63FE8A2H81C1C0563HC0404F9B2HDB042E42820002713HE5654FB434F5F4711F2HDF5F31561655966E8909C8C9713HE8684FE363A2A3716AAAEEEA22ED3H6D8FDC6AE84039E727A7A6683H7EFE4F91D151C12E10409D0F3A6BABBD144FD2521FAD4FD4513H00013H00083H00013H00093H00093H003AB457550A3H000A3H0082DEE0470B3H000B3H005A01341F0C3H000C3H00C176447C0D3H000D3H00D6246B410E3H000E3H001B200B300F3H000F3H00B355D02E103H00163H00013H00173H001A3H00973H001B3H001F3H00013H00203H00203H00803H00213H00253H00013H00263H00263H00813H00273H002F3H00013H00303H00303H00943H00313H00313H00013H00323H00323H00953H00333H00343H00013H00353H00373H00983H00383H003A3H00013H003B3H003B3H00983H003C3H003D3H00013H003E3H00403H00983H00413H00433H00013H00443H004A3H00843H004B3H004E3H00013H004F3H00503H009D3H00513H00523H00A23H00533H00543H009D3H00553H00563H00A23H00573H00583H00013H00593H005A3H00A23H005B3H005C3H009D3H005D3H005E3H00013H005F3H00623H009D3H00633H00643H00A23H00653H00663H00013H00673H00683H00A23H00693H00693H009D3H006A3H006B3H00013H006C3H006F3H009D3H00703H00713H00013H00723H00753H00A23H00763H00793H009D3H007A3H007C3H007F3H007D3H007D3H00013H007E3H00803H008F3H00813H00823H00013H00833H00853H008F3H00863H00863H008A3H00873H00883H008F3H00893H008B3H00893H008C3H008E3H008F3H008F3H008F3H00893H00903H00913H00013H00923H00933H008A3H00943H00953H00013H00963H00973H008A3H00983H00983H00893H00993H009A3H00013H009B3H009C3H00893H009D3H009E3H00013H009F3H00A23H00893H00A33H00A53H00013H00A63H00A83H00893H00A93H00AA3H00013H00AB3H00AB3H00893H00AC3H00AD3H00013H00AE3H00AF3H00893H00B03H00B03H008F3H00B13H00B23H00013H00B33H00B33H008F3H00B43H00B53H00013H00B63H00B73H008F3H00B83H00BB3H00013H00BC3H00BC3H00833H00BD3H00BE3H00013H00BF3H00C13H00833H00C23H00C33H00013H00C43H00C43H00833H000F0B797E5C002H860A020011BFDD093H00E91613E02H7D2DAEEB33DD163H00BE3B88A5926A4510C4915391DC2D6493AC8722111FFDDD0F3H002C89B6B380570A6B9AF2F60B91B471DD0B3H00EF7CD9060343F03263EDFDDD0A3H00AE2B78958253C7AE8307DD0E3H0020BD2A67745823430B48412CFBB2DD093H00A6A3700D7A6A82E022DD0A3H00CB183522DFD7F3B37772DD0F3H005DCA0714F125C05EE40DF2A99C9719988HFFDD103H0010AD1A57648C92D19CC17E67E8CAE55EDD0C3H0060FD6AA7B43E9E15280C55A7DD0F3H005CB9E6E3B0618F8EB58B280C1725DFDD093H001FAC0936332216B46FDD113H005431DE5BA82E2HF9F3B01159C28902203F99DD0C3H00812EABF815812459A8FA9F59E24E43060700C20D3B7D575H0001BE872C6A5A0B02009BF535E8754FC444D9444FEFAFF26F4F2H6667660ED919D8D971B878BCB82233730A43543ABA014E547D00698C55ECA0210F3A778DF0090E8E9239B13A617D261F71200C0048107BA964CD752H2238A24F45850605713H14944F3FBF7E7F712HB6343622693HE98F88688A350E8343C3C2688AC786107F8D0D950D4F2HBCBB3C4FC787EE474F2HDE9F9E713HF1714F70F03130712H0B8A8B222HB2F2F3563H15954F2464E4B92E4F0F0C0F713H06864FB939F8F971182HD858313H53D34F9A2HDAAB2E2HDD5D156E0CCCF3734F571772D74F2H2E6F6E718141030122003H808FDB89CA2D5B2H82C2C3566525262571F42H34B431DF9F5B176ED61620A94F0949C9091B2HA888284FE323E2634FEAAAA9AA713HAD2D4F1C9C5D5C71A72H67E7313H3EBE4F51119111092H9014D0242HAB56D44F92D290124F35B53BB54F44040704712FAF2FAF4FA6E666A61B2H19EC664FF878F8784F332HF373312H3ABE7A24BDFD43C24FAC6CB92C4F2H372H77804ECE4C8B6E21E1DE5E4FA0E0212071BB7B783A4662A261E24F052H444571541454D44F3F7FFFBE462H767EF64F69329F1D8508494849103H03834F0A4B4A0A2E0D8D2HCD062HFCEB7C4F87472H07065E9E2HDE80B13H318FB03AC5C7474B0B894E6E327231B24F55D42H5522A4E4A5244F2H8F8C4E2486468647243H39B94F2H589998713H5392461ADAE3654F3H5DDC903H4CCC4F179717A92H2E6EEDAF24C141034024C00038BF4F2H9B5A5B713H02824F2HA564657134B437F5469F5E2HDF22D62H9617902H49B2364FE82HE9E8712338151785EAEBEAEB102HED15924F4H9C8F27E7CC584F7EFE99014F2H51D15137D0502H1006EB6B0D944F12D212D3243H75F54F2H844544713HAF6E46A62HE7E671591958D94F2HF839387173F370B246BA3AB33A4FFD2HFCFD71ACED6CEC13B777B1374F0E0CD84C83216061601060E09B1F4FBBFB797B22623HA28F0599C8116A14D49495567FBF2HFF80363HB68F29C5D10F1C0848CA0D6E4303B83C4F3H0A8B903H0D8D4FBC2H3C642EC7870446249E1E5C1F243H71F14F3070B1B0718BCB4B0A4672B28B0D4F95142H95222HE4199B4F2HCF2H8F80C646C4036EF9B978797158989BD9462HD32DAC4F5A5B5A5B103H1D9D4F8C8D8C5A2E57972HD7063HEE6E4F012H81462E2H800300719B1B6CE44F02C32H4222E5A42HA58FF43E31056ADF2H9F1E903H56D64F4989093E2E2HE8EB292463A3921C4F2AEAFF554F2HAD2F2D225C3HDC8F67A75B8655FE3EBEBF683H91114F1050D0F32E6B3H2B8F12D2FC6D4FB5F5B5354FC4048784712HAF52D04F2H26F9594F513A3H00013H00083H00013H00093H00093H004E6290090A3H000A3H007FB3C61C0B3H000B3H0096897E5A0C3H000C3H00D85CB2360D3H000D3H00ACB2DC4B0E3H000E3H00DBDF0B370F3H00133H00013H00143H00143H00333H00153H00173H00013H00183H00183H00343H00193H00213H00013H00223H00233H004C3H00243H00253H00013H00263H00283H004C3H00293H002A3H00013H002B3H002C3H004C3H002D3H002E3H00013H002F3H00313H004C3H00323H00333H00013H00343H00343H004C3H00353H00373H00373H00383H00383H00013H00393H00393H00373H003A3H003B3H00013H003C3H003E3H00373H003F3H00413H00013H00423H00423H00423H00433H00453H00013H00463H00473H00433H00483H004F3H00013H00503H00513H00463H00523H00533H00013H00543H00563H00463H00573H00593H00323H005A3H005C3H00453H005D3H005E3H00013H005F3H00613H00453H00623H00623H003D3H00633H00643H00013H00653H00663H003D3H00673H00683H00013H00693H00693H003D3H006A3H006B3H00013H006C3H006D3H003D3H006E3H006F3H00013H00703H00703H003D3H00713H00723H00013H00733H00733H003D3H00743H00753H00013H00763H00763H003D3H00773H00783H00013H00793H007C3H003D3H007D3H00863H00013H00873H00873H00363H00883H00893H00013H008A3H008C3H00363H008D3H008D3H00013H00CC8E155D7E007C860A02001D0EDD0C3H003D86CB9C49F57FAE5D6F9CE4988HFF988H00DD0F3H00A1DA4F90ED716C1E94497EB1C49375DD0C3H004451CA7F004615E615EDE60733DD163H00B875DEC3B45BDAC59BA85C6433AC9BB6135E0DF430CCDD093H00AADFE0FD467917735BDD0F3H00F798D5BE232A6AD5FCE8ED9FF6EEAADD0E3H0092270885AE044353D7F409F4174EDD0A3H003C69825778F581A87581DD0B3H007A6F300D16BF44FA2B51C9DD103H00E58EB3E4711F56C07A29EE8CD8FC805199DD113H00957EE354219E893547D8D905A6A9626CBBDD0F3H006E13C4D14ADB663B725E2A03E1181DDD093H00F55E433481917737C2DD083H00D6DB6CD932EDD0A36175D9710600670A6755B85H0001F0143152230B0200D72H998C194FB474A0344FDB5BCF5B4FBEFEBFBE0ECD0DCCCD7138F83C38222HEF579F54A22219D754C15ED21B02FCDEE7E96A43B71D694186FCE1CF2675EA553A7140F961871D57D746D74FEA2AA8AA7169A9EBE9223H44C44FAB2BB02B4F2H8ECECF565D3H1D713HC8484FFF7FBEBF71F22H32B2312H5150936E0CCCF1734F2HD32H9380163H568F05FD1BDF6F2H50D4906EA7E72627713HBA3A4FB9F938397154D496D5467BFA7A7B22DEDF2HDE8FED384D8E323HD859902H0FCC8E2442C281C3243H61E14F1C5C9D9C71E3A320624666A76466713H15954FA061A1A071F7ECC1C385CACBCACB1009C92H89063H64E44FCB2H4BE52E2HEEE86E4FBDFD7CBD1BE8A8ED684F5F1F5EDF4F923HD271F12H31B1313H2CAC4F7333B3A92E3676B7762465E5981A4F30703FB04F2HC7C0474F9A5AD8DA71D919D8594F2HB4F4F5563H1B9B4FBE2HFE702E4D3H0D71382HF878312FEFD0504F2HA2A1606E2H01FC7E4F3C7C2HBC220343FE7C4F2H860686372HB5B8354FC080C3404FD73H9771AA2H6AEA316929E829243H84044FAB2BEAEB710E4ECF0E1B5D9DA0224F08C8F8774FBF3273E57FF2720B8D4F5111BC2E4FCC81C0567FD31328AC4F965696164F45050105712HD02H502227E76766682HFA04854F2H7982064F14D51614713HBB3B4F1EDF1F1E71ADB69B998598999899103HCF2H4F020382662E21E12HA1063HDC5C4F232HA32H2EA66651D94F55D4545522E0E12HE08FB71B64F1393H8A0B903HC9494F24A4244A2E2H0BC88A243H2EAE4F7D3DFCFD71A8286B29243H9F1F4F92D213122H7131B2F0466CEC95134FF373317246B6764DC94F2HE52HA580303H708F07F11AD6552H5ADE9A6E99D918197134F4C94B4F1B5B5F5B712HBE2H3E22CD3H4D8F381C9D29362FEF6F6E683H22A24F012H41D32E7C3170E67F4383AC3C4FC6462CB94FF5B51A8A4F1A103H00013H00083H00013H00093H00093H00028DD2740A3H000A3H00DCF2FF3D0B3H000B3H00AF7EF3400C3H000C3H008D2877350D3H000D3H00F20A6A280E3H000E3H000386160E0F3H000F3H00D18A7177103H00103H00950E405F113H00113H00013H00123H00123H0053022H00133H00143H00013H00153H00163H0053022H00173H00183H00013H00193H00193H0053022H001A3H001C3H00013H0029F288DB5C002A7A0A0200E596DD0C3H004E632CF95A2H50B5693DDEE7DD103H00325770CDFEE5D466A25DD3D99A703EE7DD093H00E2C7A0BDAE352B67A7DD0D3H00FFB83506FB992E88AAE70CACD7DD0E3H00BCC96A6FE85B4C35A201F7B0ED6ADD0E3H000E23ECB91A127E75E456DFC45AD16D2D523D0400623BF159755H00019F19B810B20A0200D7008003804FD797D4574F2H2A29AA4F692968690EC404C5C4712H2B292B224E0E773C549DDDA6E85408AE07BE1F3F3E108B7872D8B88E0E519C3C562A4CAC54787553C2235504569C24A051C59FA14413D0102H9071E7A767A7243H3ABA4FF979B8B9712H14945424BBFB3AFB243H5EDE4FAD2DECED71982H18D8244F4E990E83022HC2C00D2HE161E137315A3H00013H00083H00013H00093H00093H00B945996B0A3H000A3H00B1E3594C0B3H000B3H00CBCADD7E0C3H000C3H009106B3760D3H000D3H00F9BB6E150E3H000E3H009E2CAB560F3H000F3H000AE20A78103H00103H00EE00BE19113H00113H0065C4A606123H00123H003621DA39133H00133H00013H00143H00143H00B43H00153H00163H00013H00173H00183H00B43H00193H001A3H00013H001B3H001B3H00B43H001C3H001D3H00013H001E3H001E3H00B53H001F3H00203H00013H00213H00213H00B53H00223H00233H00013H00243H00253H00B53H00263H00273H00BB3H00283H00293H00B43H002A3H00303H00013H00313H00333H00B43H00343H00353H00013H00363H00363H00B43H00373H00383H00013H00393H00393H00B43H003A3H003B3H00013H003C3H003E3H00B43H003F3H003F3H00BB3H00403H00413H00013H00423H00443H00BB3H00453H00463H00013H00473H004C3H00BB3H004D3H004E3H00013H004F3H00503H00BB3H00513H00523H00013H00533H00533H00C03H00543H00563H00013H00573H00573H00C13H00583H00593H00013H005A3H005A3H00C33H005B3H005C3H00013H005D3H005F3H00C33H00603H00643H00013H00653H00653H00C33H00663H00683H00A93H00693H006F3H00013H00703H00703H00AA3H00713H00713H00013H00723H00723H00AB3H00733H00783H00013H00793H007D3H00AE3H007E3H00803H00013H00813H00813H00C43H00823H00833H00013H00843H00843H00C43H00853H00863H00013H00873H00883H00C43H00893H008B3H00013H008C3H008E3H00CA3H008F3H00903H00013H00913H00913H00CA3H00923H00933H00013H00943H00983H00CA3H00993H009A3H00013H009B3H009B3H00CA3H009C3H009D3H00013H009E3H009F3H00CA3H00A03H00A03H00CB3H00A13H00A23H00013H00A33H00A33H00CB3H00A43H00A53H00013H00A63H00A73H00CB3H00A83H00A93H00D13H00AA3H00AB3H00013H00AC3H00AC3H00D13H00AD3H00AE3H00013H00AF3H00AF3H00D13H00B03H00B13H00013H00B23H00B43H00D13H00B53H00B63H00013H00B73H00BA3H00D13H00BB3H00BF3H00013H00C03H00C33H00AD3H00C43H00C43H00013H006C9553A62F0011860A0200B133DD093H0030CD5AD744091B77DBDD163H0075827F6C49B72EE5DB54588C6BE03FA603E2191C0880DD153H0023D06DFA77018B5981B174FC18536A13BCD8892BA7DD0C3H003491DE1B48BA22D18C60F1BB988HFFDD0D3H00700D9A17845C0F6427AF743ADEDD0E3H00895613C05D1DC0768C5592E15417DD0B3H000FFCD9A66335CEA8D9939BDD093H00CE0B3855620E1E98D7DD093H00B360FD8A07DA742D92DD0A3H0088A5B2AF9C27CF0A43CBDD113H00DA57C4216E6659995B4861691A5102A06733DD0A3H00A71471BEFBE6440A2463DD0F3H0019E6A350EDC90356C1934C040BBD23DD0F3H008C6936F3A027BEA06E6F84BFA6D57799DD0F3H00EFDCB98643BEE17275DB6D8236ED0A3DB18C6C0700B5A04E2A395H0001D98610325A0B0200B91CDC049C4FC545DD454FF2B2EA724F337332330E589859582H71B1757122CE4EF6BF54FF7F448A549448A9585D9D4184AF0CEA295CA5150B940BE9739094BAF74C09CBC84D85C6E4D0400F172EE13E648C3CAD307475F3CE114EE2A2F6624FE3E2E3E2103HC8484FA1A0A11C2E3EFE2HBE062FAFADAF713H44C44F0D4D8C8D711ADADBDA227B3HBB8F805189955439F9B9B8563H36B64F870787292E7CBC2HFC80A53H258FD278B27E7B2H13D3116EF83H3871115112D046AE2EAB2E4F5F1D495D83B4F44ECB4F2HFD2HBD808A3HCA8F6B866D307130F030F26E693HE9713H26A64F3777B6B7712HEC2F6D4655142H55223H42C3903H43C34F282HA88B2E81C14300243H9E1E4F8FCF0E0F71A4646725243HED6D4F3A7ABBBA719B5B5F1A46E021E1E0712H19E3664F56572H162227662H678F9C2737F762452H0584902H7270B32433B331F2243H18984F2HF13031714ECE4A8F463HBF3F4F941493144F5DDC1C1D71EAE83CA8838BCACBCA103H50D04F094849992EC6463H0617D7EA684F0CCC4E4C713575B6B5222HE2A2A356E3632HA3713H88084F21A16061713E2HFE7E312F6FABED6E044405844F0DCD4D4C683H9A1A4F3B2H7B202E803HC08F79B97CF94F2HF6F7764F87C7C5C7713HBC3C4FA525E4E57112929392222H53AE2C4F2HF8FE784FD1282BE3132H6E94114F3H1F9F4F2H7460F44F3DFD7F7D713H8A0A4F6BEB2A2B712HB0313022293HA98FA6829583272H377776566CEC2H2C71552H9515313H82024F430383AC2E2868ABEA6EC101D1414F2H5EDE5E378F0F2HCF71A42H64E4312HED6CAD242H7AB97A1BDB1B21A44FA0604ADF4FD91924A64F96162HD67127E7D8584FDC2H1C9C313H45C54F3272F2EB2E2HF372B3243HD8584FB131F0F1712H4E8D4E1B7FFF71FF4F2H142H54809D5D9D5F6EEA3H6A712H0BC88A4610512H10223H8908903HC6464F57D757582E8CCC4E0D243H75F54FE2A2636271E323206224C8080C494621E0202171BEFB2C37852F2E2F2E103HC4444F0D0C0D062EDA1A2H5A063H3BBB4F002H807C2EB9393B397176B6B7B62207C78786563H7CFC4F252HA5A92ED2122H5280933H138FB8ACE546082HD111D36EEE3H2E711F5F1CDE4674752H34227D3C2H3D8FCA23AD65432B2H6BEA903HF0704FA92H69C22E2H6664A7243H37B74F2H2CEDEC71159517D42482028643468302C2C3713H28A84FC1408081715E05A82A85CF8E8F8E1064E42HA4062H6D6FED4F7A3A383A719B5B64E44FE060616022193H998F968521F46BA767E7E6685C0CD1433A05C5E97A4F32F2DE4D4F73F3950C4FDC0F3H00013H00083H00013H00093H00093H0076E4C00B0A3H000A3H00F4C27F720B3H000B3H00372012290C3H000C3H00332CF0340D3H000D3H002B5C71550E3H000E3H00F7029D5E0F3H000F3H0041B1DD3D103H00103H00C35D2827113H00113H008A55484A123H00123H0036F42055133H00153H00013H00163H00173H0059022H00183H00193H00013H001A3H001A3H0059022H008472FC50680037750A02006182DD0D3H00429FDCF9F6A5B05E7C0D522C8299F76C1A0301CBA4A97EF26H00FFF3A332B00A0200512H989C184F49894AC94F9E1E9D1E4FA7E7A6A70EB4342HB47155952H55222H5A632854D393E8A754109A826736E1DD763C10564AE0BB83BFAE613B712C1B142A47EDD89A5204D2025FC7246B9757A18588F636A41DF91804C0134H0E003HD7574FA4242HA4712H05450546CA8ACACB563H03834F2H0080662E2H51D151375B2E3H00013H00083H00013H00093H00093H0073813E170A3H000A3H00075D1F050B3H000B3H00655347550C3H000C3H00CD6BEF0E0D3H000D3H00A9475B3A0E3H000E3H00CC7DFE750F3H000F3H00B51D3A54103H00103H00CB5A8F5D113H00123H00013H00133H00133H006A012H00143H00153H00013H00163H00183H006A012H00193H001D3H00013H001E3H00203H006F012H00213H00223H00013H00233H00243H006F012H00253H00263H00013H00273H002B3H006F012H002C3H00343H00013H00353H00393H0069012H003A3H003B3H0061012H003C3H003D3H00013H003E3H003F3H0061012H00403H00433H00013H00443H00443H0061012H00453H00463H00013H00473H004D3H0061012H004E3H004F3H00013H00503H00503H0061012H00513H00533H00013H00543H00543H005C012H00553H00563H00013H00573H005A3H005C012H005B3H005F3H00013H00603H00603H0066012H00613H00633H00013H00643H00643H0067012H00653H006E3H00013H006F3H00723H005B012H00733H00753H0057012H00763H007C3H00013H007D3H007E3H0058012H007F3H00813H00013H00823H00823H0059012H00833H00843H00013H00247CB8D83D0004860A020035DCDD093H003BD4815297BD8B0BBE99DD0E3H002CB9EA0FB88F42EC3EAF38839E75DD093H002E23DC291A9B216D19DD0F3H001B3461B277B31EB00A2B4C07E211C7988HFFDD163H00760BE4D1E2E413AEDADF155FB2A3220D1269B4DF3153988H00DD103H00A0BDBEF3ECADFCFE745B744AAE4EDAFFDD0F3H00502DEEE39C22D1421947C51ADA916ADD153H0037009D1ED356EA5E6CC6DD0BF5D49B44B1BF004CCADD063H00FCC93A9F8843DD0B3H0066BB5401D28EC7B314206ADD0F3H00396A8F383553610433A1A61E7147B1DD0A3H005CA99A7FE829ED3C4195DD0C3H0032F7C05DDEC9FB5229AB2000DD113H00F68B6451623D903A66FB3012A72AEB539A333593240D060019CB402C4A5H00015B4B9D691A0B02003B2HC6DA464F599942D94FD858C3584F73B32H730E1ADA1B1A717DBD797D220C8C357D542HF7CD81542E0AEC62202149EC8E86C04A195D77BB04669C464299B6CA1D45A17CCD8234F467AA35FF2AE64E282H968E164F29A96A6971682HA828313H03834FAAEA6A322ECD4D4F8D245C1C985C1B2H8782074F2HBE2HFE80313H718F90B8DC4C1F8B4B09496E52122HD271955556144604850504223H4FCE903H66E64FF92H799D2EF8783C79241393D192243HBA3A4F1D5D9C9D712CECEEAD461716141771CED5F8FA85818081801020E02HA0063H5BDB4F222HA26D2E25E5DA5A4F143H54713H5FDF4F76F63736710949888922483HC88FE3ED77275CCA0A8A8B68AD6D52D24F7C45468E132HA7A8274F9E5E6BE14F11D1D29046F071F1F022EBEA2HEB8FF2BC30B9243HB53490A464A4244F2HAF2HEF804686C4846E19592H99711858E5674F33B3F7B2243H5ADA4F3D7DBCBD71CC4C0E4D2437F7C8484FEE2E2C6F46A1A0A2A171405B7674857B7A7B7A10C2022H42063H45C54F74F474B92E7FBF7AFF4F9616D5D6713HA9294F28A8696871032HC343313H2AAA4F8D2HCD1F2EDC5C5E9C24C78703C71B3EBE3DBE4F2HB148CE4F90D096104F4B8B080B713H12924F1595545571C4444544222H4F0F0E563HA6264FF92HB9A02EF878BBB871932H53D3313HFA7A4F9D2HDD142E2HAC2C696E5717A6284F0ECEF1714F813HC171E0201F9F4F1B5B9A9B22623HE28F25D3E3DD73D4149495681F2625ED1376B676F64FC9893EB64F4H088F63E39A1C4F3HCA4A4F2HED6DED377CBC3F3C713HE7674F9E1EDFDE712H512HD122B03H308FEBAA966D2E2HF2B2B35675B58A0A4FA424E7E4713H2FAF4F0686474671992H59D9312H189CDD6E2HF30A8C4F371A3H00013H00083H00013H00093H00093H00EC289A250A3H000A3H00DCCA6A550B3H000B3H0009496B2E0C3H000C3H00CD076E390D3H000D3H00ECCE100F0E3H000E3H00D50C3A580F3H000F3H00DD414323103H00103H0088934D77113H00113H00C287DD61123H00123H001FE87A41133H00163H00013H00173H00183H004E012H00193H001A3H00013H001B3H001C3H004E012H001D3H001E3H0053012H001F3H00203H00013H00213H00233H0053012H00243H00253H00013H00263H00273H0053012H00283H00293H00013H002A3H002B3H0053012H002C3H002D3H00013H002E3H002E3H0053012H002F3H00303H00013H00313H00313H0053012H00F87345B81B00B07F0A0200EDF2DD0C3H007B7C69D207CF8841C3877144DD113H005F90ED062BA9E05636C74026C75EFB4F8ADD0F3H00801D76DB5C0D7FB61177F0CCC3493FDD103H00BF704DE68BE34EB4EACD066098102805988HFFDD0B3H006F607D563B75DEEC7DFB83DD103H008E1334C14A995D084394E1F6E7EFEAE7DD0F3H00FEC324F1BAA037C403C59BF4D033ECDD093H00F56E7314217EC60882DD0A3H00A64B0CB9E27086F59EACDD163H0004519A2F200FEE790F6430D02FD8CF7AE7823180FC782BB335710500CE1B1A01ED6H00418FFA05C70A0200512H9A9E1A4F13D310934F50D053D04FE1A1E0E10E96562H96712H7F7C7F222HECD59C546DAD571854922E6684036B54847945C87D9DAC8A79396F288E0E2954C432572473D28264A522C76FC52H56D878CA4F173B8843462668134000424071D13H9122463H068F6F86A54943DC9CDCDD561D5D2H1D804H428FDB0958CA54B838F93A6EA9E9EBE971FE3E7EBE4687C7454722143HD48FB535143D7D3A2HFA7B902H33B37324702HF030243H41C14F36B62H76719F1F1EDF460C8CCDCC713HCD4D4F2H722HB271CB4E198385682HA8A9103H99194FEE2H2E462E2H372H77063HC4444FE52HA5BB2E2HEA6AEA376F353H00013H00083H00013H00093H00093H00BA8B05030A3H000A3H000C0D03720B3H000B3H0096AD5E620C3H000C3H003BE8BD110D3H000D3H0031EB89030E3H00113H00013H00123H00133H00143H00143H00153H00013H00163H00183H00143H00193H00193H00103H001A3H001B3H00013H001C3H001D3H00113H001E3H00223H00013H00233H00253H000F3H00263H00273H002B3H00283H00293H00013H002A3H002E3H002B3H002F3H00303H00013H00313H00333H002B3H00343H00363H00013H00373H003C3H002B3H003D3H003D3H00013H003E3H003F3H00243H00403H00413H00013H00423H00443H00243H00453H00463H00013H00473H00473H00213H00483H004B3H00013H004C3H004C3H00203H004D3H00513H00013H00523H00553H001B3H00563H00573H00013H00583H005A3H001B3H005B3H005C3H00013H005D3H005D3H001B3H005E3H005F3H00013H00603H00603H001B3H00613H00623H00013H00633H00633H001B3H00643H00653H00013H00663H00673H001B3H00683H006E3H00013H006F3H00703H001B3H00713H00743H00013H00753H00753H00233H00763H00773H00013H00783H007A3H00233H007B3H00803H00013H00813H00813H00133H00823H00833H00013H00843H00863H00133H00873H00883H00013H001A035129700002850A0200E50ADD0F3H00867BA45112CD33764FD0177F7EF50CDD113H00A536EBD441673E343CE146945D4035CDB0DD093H00E65B04317213D96541DD0F3H00139C294ACF086C8BC6FAC3194CCC8C988HFF3399DD0F3H00EE83CC19FADAF16139C22B2601E818DD0B3H00ED9EF3FC09F76E873A4CFDDD163H00940182E740CE5D1068B503D980B9BC8300F302592379DD0B3H00FED35CE90A7C750D82A2A8DD0F3H00E1E2C7A0BD543370E7296798BC27E8DD0A3H0024D19237D07E0C8E90E3DD0C3H006A6FE825B6CBFD1CBB29BE66DD0E3H000E23ECB91AE9F826F01152C96813DD093H00308DBE931C89771F92DD0A3H0005164BB4A1A915146105C93204100600AEFEAF2H1D5H00012DA8424A1E0B02008B2HA3AB234F5A9A5DDA4F0D8D0A8D4F2C6C2D2C0EE727E6E7712EAE2A2E222HB109C354E0605A96542B8A2BC0738214365F70D57CC7D57A147947EB74EF1321FE0B16D612964F2H793A39713H88084F73F33233716A2HAA2A315D1DDF1D243H7CFC4F37B7767771FEBE3FFE1B2HC1CA414F30B023B04F2H3B7B7A562HD291927125E5DA5A4FE42H24A4313FBF3FBF4FA6E6E2E6712HC94A4922D81825A74F2H8382476EFA3AEF7A4F6DE0A1377F2HCCC54C4F07C7FA784F4ECE8DCF24D191D1514F2HC03H800B4B098B4FE2A2206346357536B54F7434B4F546CF0F30B04FB6F7B4B62259582H598F683CA17C043HD352904A2H8ACB243D7DC1424F5C1C5C9E6E2H172H97712H9E63E14FE1E0E1E01050902HD0062H9B881B4F32B3303271455E7371854404BA3B4F2H1F5C5F71C62H0686312969AB69243H78F84FA323E2E3719ADA5B9A1B4DCD5DCD4F6CEC94134F2H272AA74F6E2E64EE4FB12H71F13160A061A46E2BEBD5544F4202060271D5955455222HD49495563HEF6F4F1656D6B12E2H397A7971C88835B74F73337EF34F6AEB686A715D466B6985BC7C43C34FB7B6B7B6103H3EBE4F010081632EF0302H7006BB3B41C44FD293D0D22265642H658F24D3F812043HFF7E903H26A64F098909322E982H5819243H03834FBAFA3B3A71ED6D2E6C243H0C8C4FC7874647718ECE4C0F461151EB6E4F2H802HC0800B3H4B8F22B5332A60357535F76E2HB42H34713H0F8F4F7636F7F6711959D998462H6892174FD3539093718A0A0B0A22FD3H7D8F1C00784B609757D7D6683HDE5E4F6121A1A82E10409D0F3ADB9BD85B4F7232820D4FC5458685713H84044FDF5F9E9F7146C6C7C622293HA98F384D61C14963A32322683HDA5A4FCD8D0D062EEC3HAC8F672767E74FAE6E4FD14F2H31CB4E4F2H60E06037F70A3H00013H00083H00013H00093H00093H00207B6D350A3H000A3H005B7721620B3H000B3H007FB6976B0C3H000C3H0021E84C150D3H000D3H002455913A0E3H000F3H00013H00103H00103H005E022H00113H00123H00013H00133H00133H005E022H0045C6BD516C00E9750A0200B965DD0A3H0003C8255AA7587A41E64CB2436B570300221ED30EC05H0001BD6F0E2BA90A02001D6BAB69EB4FD454D6544FC181C3414FC282C3C20EA7272HA77180402H80229D5DA5EE542H8EB5F854E3A186F047AC43CB188DB9D89FC20E9A45D3EC435FE8691C29D83H9871D5D1871D852HA6E6E7563HDB5B4F440484A22E2HB131B1379E2H007C265471AD0B02007D72B271F24F77F774F74FF0B0F3704F2H2D2A2D0EBE7EB0BE712H736173222H5C652D54C90973BC540A376CAD182F4B0FFE23C89B8D7075A5B2D6C76A564CCF251FAB7319EA3074E1A4C17581FE09D60E221EF3101EE727EEE7713H20A04F1DDD131D712EEE666E713HE3634FCC4C828C71F97969B9463A7AF3FA22DF3H1F8FB80BB1C21ED5951594103HC6464FDB2H9B4B2E24A42H24593HB1314F3HD2C92E572HD7573110501E50248D4D1D0D22DE1E0F1E22933H538F7CE0DAA217E92H29A8902AEA6BAA468F0E8E8F223HE869903H85054FF676F6A02ECB4B470A4614D5555422612H21A09082034283464786C2C72200812H808F3DD90293020E4FC8CE22C3C1C0C30EECAD6CEE3D3H99194F5A5BDA6C2EFF2H3EFE461859979822B534767522E6272H268FBB7CE9D41384C681840E91D011933D3H32B24F3736B7A72EB02H71B1466D6CE3ED22BEFF6F7E22F3322H338F9C3DD2923F894B8A890E0A4B8A083D3H6FEF4FC8C948372E65242964465697DCD622EB6A6BEA90F475F5B64641C02H8122E2E0E1E222A7A52HA78F2070D6706B9D1F2HDD0E6E6FAE2C3DE362E2A1468CCD4F4C2279BB7B7922BAB82HBA8FDF2822FB75B87AFBF80E1514D5573DC647C784469BDA5C5B2224E52HE48FF1E673914E929095922217152H178F50E59FA1268D8FC9CD0E9E9F5EDC3D53D2521146BC7D7A7C22A9682H698F2A0821DF364F8D4C4F22682A29280E0504C5473D76777A37460B0AC1CB225495941590E12HA0634642404F4222C74589872200422H408FFD08D3625D0ECC2H8E0E03C203813D2C2D66AE46599B5E59225A181F1A22FFBD2HBF8FD8928FB624B5B72H350E66A766E43DBB2HFA394644864944221193595122B2F02HF28FF7877B4302F0B271700E2DEC2DAF3DBEBFF43C46F32HF1F3229C5ED0DC22C94B4C490E4A8B4AC83D3H2FAF4F0889088F2EA52HE4274696942H9622EB29A9AB2234762H748FC1D7A76B242260A6A20EE726E7653D20216AA2469DDF929D22AEACE5EE2223612H638F8CF1973B1EB97B3B390EFA3BFA783D3H9F1F4F38B9B8D52E952HD4172H46C44946225B991E1B2224E6A5A40EB170B1333DD2D3985046D795DFD722D0D22HD08F8D0A43A852DE5C929E225311D1D30EBC7DBC3E3DA9686528462A282B2A220F0D2H0F8F28A177785285848504903637B7F546CB89878B2294D62HD48F619D5A2E618240040222870544470EC04180023DBDBC3C7E460E0C494E2203412H438F6C491D314F991B1119221A58D8DA0EBF3EFF7D3D3H18984F35F4F5822E6667E7A546BB39FFFB2284460A042291132H118F72765C104F772HB5B70EF071B0323DAD2CAC6D46BE7CF3FE22733233B2903H9C1C4FC908897F2E8AC84689466F6DE2EF2248CAC84990A567AFE14696145256226BE87B6B2234372H348F41C92F654C22612H620E6765A7253D20E22B64469DDF595D22AEEDACAE2223202H238F0CB3296807B9FAF2F922BA79373A229F5C5B5F0E383AF87B3D3HD5554F460486642E9B5990DF46A46660642231F32HF18FD27B0F4A1F975492972290932H908F0D2HC564541E5D555E2213D09E93227CFF2HFC8FE9083DB6042A69EBEA0E8F8D4FCC3D3HA8284F85C7C5542EF6B4E6B2468B09424B2254962H948FE141016E39C2C1C8C22207042H078FC075974C2H7D3E323D713H0E8E4F43C00D03716CEFEA2A24991A12DF243H9A1A4F7FFC313F71585BDCD80E4HB513262466653D3HBB3B4F84C6C47A2E919310D146B230637222B7752H778F309A36647D6DAFAD2C903HBE3E4F3371F3232EDC1E905846C98AD8C9224A492H4A8F2F0F262936888A8809903HA5254F961416622EEBA96B2E46B4F7FDF42281C22HC18FE22HD4F60267242HE722A0232H208F1D60714F0AAEED6B6E0E23A163E13D2H8C0C8C37922H00047D0A3BB00A02006FB9F9BA394F2HECEF6C4F8B4B890B4FC606C7C60E4H8D7190D02H90223F7F074D54CA0A70BC546182BEF010F41A9A4C8333D12C9A1F0EDC09FB87F56A4BC704181033ED69A73599674F4H120E89C9098938FCBC2HFC0E4HDB6A4H56711D3H5D6A20D437C82E4H8F103H5ADA4F2HF1715C2E4H047FD4",bit32,"\98\121\116\101","\115\117\98",256,7997,string.char,"\108\115\104\105\102\116",143,pcall,assert,string.match,"\118",4294967296,"","\96\102\111\114\96\32\108\105\109\105\116\32\118\97\108\117\101\32\109\117\115\116\32\98\101\32\97\32\110\117\109\98\101\114",getfenv,...);
+local Tab = Window:NewTab("main")
+local Section = Tab:NewSection("main")
+Section:NewTextBox("Buy Any Item", "Type in the box what you want then hit enter", function(txt)
+    print(txt)
+    local args = {
+        [1] = (txt)
+    }
+    
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewToggle("Auto Water Melon", "auto equip water melon loop", function(state)
+    if state then
+        print("Toggle On")
+        getgenv().farmer = true;
+
+while wait(1) do
+    if getgenv().farmer == true then
+      -- Script generated by SimpleSpy - credits to exx#9394
+
+local args = {
+    [1] = "Watermelon"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+
+   end
+end
+    else
+        print("Toggle Off")
+        getgenv().farmer = false;
+
+while wait(1) do
+    if getgenv().farmer == true then
+      -- Script generated by SimpleSpy - credits to exx#9394
+
+local args = {
+    [1] = "Watermelon"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+
+   end
+end
+    end
+end)
+Section:NewToggle("Crasher", "wait 30 to 40 seconds while this is active", function(state)
+    if state then
+        print("Toggle On")
+        getgenv().farmers = true;
+
+while wait(0) do
+    if getgenv().farmers == true then
+        
+local args = {
+    [1] = "Jet"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+    end
+end
+    else
+        print("Toggle Off")
+        getgenv().farmers = false;
+
+while wait(0) do
+    if getgenv().farmers == true then
+        
+local args = {
+    [1] = "Jet"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+    end
+end
+    end
+end)
+local Section = Tab:NewSection("Auto Dropper")
+Section:NewToggle("Auto Drop The Banana", "auto drops the banana", function(state)
+    if state then
+        print("Toggle On")
+        getgenv().farme = true;
+
+while wait(1) do
+    if getgenv().farme == true then
+        local args = {
+            [1] = "The banana"
+        }
+        
+        game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+        wait(1)
+         local args = {
+            [1] = "The banana"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Drop:FireServer(unpack(args))
+
+    end
+end
+    else
+        print("Toggle Off")
+        getgenv().farme = false;
+
+while wait(1) do
+    if getgenv().farme == true then
+        local args = {
+            [1] = "The banana"
+        }
+        
+        game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+        wait(1)
+         local args = {
+            [1] = "The banana"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Drop:FireServer(unpack(args))
+
+    end
+end
+    end
+end)
+Section:NewToggle("Auto Drop Trading Ben", "auto drops trading ben", function(state)
+    if state then
+        print("Toggle On")
+        getgenv().farmerr = true;
+
+while wait(1) do
+    if getgenv().farmerr == true then
+        local args = {
+    [1] = "Trading Ben"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Trading Ben"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Drop:FireServer(unpack(args))
+
+    end
+end
+    else
+        print("Toggle Off")
+        getgenv().farmerr = false;
+
+while wait(1) do
+    if getgenv().farmerr == true then
+        local args = {
+    [1] = "Trading Ben"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+local args = {
+    [1] = "Trading Ben"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Drop:FireServer(unpack(args))
+
+    end
+end
+    end
+end)
+Section:NewToggle("Auto Drop Mommeh Long Legs", "ToggleInfo", function(state)
+    if state then
+        print("Toggle On")
+        getgenv().farmerdd = true;
+
+        while wait(1) do
+            if getgenv().farmerdd == true then
+                
+        local args = {
+            [1] = "Mommeh Long Legs"
+        }
+        
+        game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+        wait(1)
+        
+        local args = {
+            [1] = "Mommeh Long Legs"
+        }
+        
+        game:GetService("ReplicatedStorage").RemoteEvents.Drop:FireServer(unpack(args))
+        
+            end
+        end
+    else
+        print("Toggle Off")
+        getgenv().farmerdd = false;
+
+while wait(1) do
+    if getgenv().farmerdd == true then
+        
+local args = {
+    [1] = "Mommeh Long Legs"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+wait(1)
+
+local args = {
+    [1] = "Mommeh Long Legs"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Drop:FireServer(unpack(args))
+
+    end
+end
+    end
+end)
+Section:NewToggle("Auto Drop Munneh", "auto drops munneh", function(state)
+    if state then
+        print("Toggle On")
+        getgenv().fa = true;
+
+while wait(1) do
+    if getgenv().fa == true then
+        
+local args = {
+    [1] = "Munneh"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+wait(1)
+
+local args = {
+    [1] = "Munneh"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Drop:FireServer(unpack(args))
+
+    end
+end
+    else
+        print("Toggle Off")
+        getgenv().fa = false;
+
+while wait(1) do
+    if getgenv().fa == true then
+        
+local args = {
+    [1] = "Munneh"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+wait(1)
+
+local args = {
+    [1] = "Munneh"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Drop:FireServer(unpack(args))
+
+    end
+end
+    end
+end)
+local Section = Tab:NewSection("Buy NFTS")
+Section:NewToggle("Buy The Banana Multiple", "buys trading bananas very fast", function(state)
+    if state then
+        print("Toggle On")
+        getgenv().fas = true;
+
+        while wait(0) do
+            if getgenv().fas == true then
+                local args = {
+                [1] = "The banana"
+        }
+        
+        game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+        
+            end
+        end
+    else
+        print("Toggle Off")
+        getgenv().fas = false;
+
+while wait(0) do
+    if getgenv().fas == true then
+        local args = {
+        [1] = "The banana"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+    end
+end
+    end
+end)
+Section:NewButton("Buy The banana Single", "buy the banana one at a time", function()
+    print("Clicked")
+    local args = {
+        [1] = "The banana"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewToggle("Buy Trading Ben Multiple", "buys trading Ben very fast", function(state)
+    if state then
+        print("Toggle On")
+        getgenv().f = true;
+
+        while wait(0) do
+            if getgenv().f == true then
+                local args = {
+                [1] = "Trading Ben"
+        }
+        
+        game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+        
+            end
+        end
+    else
+        print("Toggle Off")
+        getgenv().f = false;
+
+while wait(0) do
+    if getgenv().f == true then
+        local args = {
+        [1] = "Trading Ben"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+    end
+end
+    end
+end)
+Section:NewButton("Buy Trading Ben Single", "buy trading bens one at a time", function()
+    print("Clicked")
+    local args = {
+        [1] = "Trading Ben"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+
+Section:NewToggle("Buy Mommeh Long Legs Multiple", "buys mummeh long leg very fast", function(state)
+    if state then
+        print("Toggle On")
+        getgenv().a = true;
+
+while wait(0) do
+    if getgenv().a == true then
+        local args = {
+        [1] = "Mommeh Long Legs"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+    end
+end
+    else
+        print("Toggle Off")
+        getgenv().a = false;
+
+while wait(0) do
+    if getgenv().a == true then
+        local args = {
+        [1] = "Mommeh Long Legs"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+    end
+end
+    end
+end)
+Section:NewButton("Buy Mommeh Long Legs Single", "buys mummeh long legs one at a time", function()
+    print("Clicked")
+    local args = {
+        [1] = "Mommeh Long Legs"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewToggle("Buy Munneh Multiple", "buys munneh rlly fast", function(state)
+    if state then
+        print("Toggle On")
+        getgenv().farmer = true;
+
+while wait(0) do
+    if getgenv().farmer == true then
+        local args = {
+        [1] = "Munneh"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+    end
+end
+    else
+        print("Toggle Off")
+        getgenv().farmer = false;
+
+while wait(0) do
+    if getgenv().farmer == true then
+        local args = {
+        [1] = "Munneh"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+    end
+end
+    end
+end)
+Section:NewButton("Buy Munneh Single", "buys muneneh one at a time", function()
+    print("Clicked")
+    local args = {
+        [1] = "Munneh"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+local Section = Tab:NewSection("Money Dupe")
+Section:NewToggle("Use The Bananas ", "uses the banana for the dupe", function(state)
+    if state then
+        print("Toggle On")
+        getgenv().farmest = true;
+
+while wait(1) do
+    if getgenv().farmest == true then
+        
+local args = {
+    [1] = "The banana"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+
+local args = {
+    [1] = "The banana"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+local args = {
+    [1] = "The banana"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+
+    end
+end
+
+    else
+        print("Toggle Off")
+        getgenv().farmest = false;
+
+while wait(1) do
+    if getgenv().farmest == true then
+        
+local args = {
+    [1] = "The banana"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+
+local args = {
+    [1] = "The banana"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+local args = {
+    [1] = "The banana"
+}
+    end
+end
+    end
+end)
+Section:NewToggle("Use Pop It Rainbow!", "uses pop it for the money", function(state)
+    if state then
+        print("Toggle On")
+        getgenv().z = true;
+
+while wait(1) do
+    if getgenv().z == true then
+        
+local args = {
+    [1] = "Pop It Rainbow!"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+
+local args = {
+    [1] = "Pop It Rainbow!"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+local args = {
+    [1] = "Pop It Rainbow!"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+
+    end
+end
+    else
+        print("Toggle Off")
+        getgenv().z = false;
+
+while wait(1) do
+    if getgenv().z == true then
+        
+local args = {
+    [1] = "Pop It Rainbow!"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+
+local args = {
+    [1] = "Pop It Rainbow!"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+local args = {
+    [1] = "Pop It Rainbow!"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+
+    end
+end
+    end
+end)
+Section:NewToggle("Use Amongus Rainbow", "uses rainbow amongus for money exploit", function(state)
+    if state then
+        print("Toggle On")
+        getgenv().n = true;
+
+while wait(1) do
+    if getgenv().n == true then
+        
+local args = {
+    [1] = "Amogus Rainbow"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+
+local args = {
+    [1] = "Amogus Rainbow"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+local args = {
+    [1] = "Amogus Rainbow"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+
+    end
+end
+    else
+        print("Toggle Off")
+        getgenv().n = false;
+
+while wait(1) do
+    if getgenv().n == true then
+        
+local args = {
+    [1] = "Amogus Rainbow"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+
+local args = {
+    [1] = "Amogus Rainbow"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+local args = {
+    [1] = "Amogus Rainbow"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+
+    end
+end
+    end
+end)
+local Tab = Window:NewTab("Misc")
+local Misc = Tab:NewSection("Misc")
+Misc:NewButton("E to fly script", "Makes you fly", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/KtLKcbxr'),true))()
+    print("Clicked")
+end)
+Misc:NewSlider("WalkSpeed", "makes speed faster monke", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+Misc:NewSlider("JumpPower", "your dumb", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+Misc:NewKeybind("Make a bind to open and close GUI", "open n close ui", Enum.KeyCode.F, function()
+    Library:ToggleUI()
+end)
+local Tab = Window:NewTab("Info")
+local Info = Tab:NewSection("Info")
+Info:NewTextBox("Made by 16#0001", "TextboxInfo", function(txt)
+    print(txt)
+end)
